@@ -92,12 +92,16 @@ function Frame104() {
 export function Group47() {
   return (
     <div className="absolute contents left-[calc(83.33%-69px)] top-[369px]">
-      <div className="absolute flex h-[223.797px] items-center justify-center left-[calc(91.67%-93px)] top-[369px] w-[92px]">
+      <div className="absolute lg:flex hidden h-[223.797px] items-center justify-center left-[calc(91.67%-93px)] top-[369px] w-[92px]">
         <div className="flex-none rotate-180">
+          <div>
           <Group50 />
+          </div>
         </div>
       </div>
-      <Frame104 />
+      <div className="lg:flex hidden">
+        <Frame104 />
+      </div>
     </div>
   );
 }

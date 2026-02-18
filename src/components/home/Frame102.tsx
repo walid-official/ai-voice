@@ -62,7 +62,7 @@ function Frame103() {
 
 export function Frame102() {
   return (
-    <div className="-translate-x-1/2 absolute left-[calc(95.83%-74.5px)] size-[165px] top-[202px]">
+    <div className="-translate-x-1/2 lg:flex hidden absolute left-[calc(95.83%-74.5px)] size-[165px] top-[202px]">
       <Frame103 />
       <div className="absolute left-0 size-[165px] top-0" data-name="Intersect">
         <img alt="" className="block max-w-none size-full" height="165" src={imgIntersect} width="165" />
