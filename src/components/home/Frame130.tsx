@@ -244,7 +244,7 @@ function Frame136() {
 
 function Frame131() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative mx-auto px-4 md:gap-[40px] md:px-8 lg:absolute lg:left-[120px] lg:top-1/2 lg:-translate-y-1/2 lg:gap-[49px] lg:px-0 lg:w-[1200px] w-full max-w-[1200px]">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative mx-auto px-4 md:gap-[40px] md:px-8 lg:gap-[49px] lg:px-0 lg:w-[1200px] w-full max-w-[1200px]">
       <Frame132 />
       <Frame136 />
     </div>
@@ -253,7 +253,7 @@ function Frame131() {
 
 export function Frame130() {
   return (
-    <div className="relative bg-gradient-to-b from-[#181822] to-[#212330] w-full overflow-clip py-16 md:py-24 lg:py-0 lg:h-[1016px] lg:w-[1440px] lg:absolute lg:left-1/2 lg:-translate-x-1/2 ">
+    <div className="relative bg-gradient-to-b from-[#181822] to-[#212330] w-full overflow-clip py-16 md:py-24 lg:py-24">
       <Frame131 />
     </div>
   );

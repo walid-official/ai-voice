@@ -24,6 +24,8 @@ import { Frame121 } from "@/components/home/Frame121";
 import { Frame130 } from "@/components/home/Frame130";
 import { Frame149 } from "@/components/home/Frame149";
 import { Group54 } from "@/components/home/Group54";
+import { Frame170 } from "@/components/home/Frame170";
+import { Frame173 } from "@/components/home/Frame173";
 
 
 function Group5() {
@@ -3356,7 +3358,7 @@ function Frame136() {
 
 
 function Frame154() {
-  return <div className="absolute border border-[rgba(224,224,224,0.35)] border-solid left-[42px] rounded-[320px] size-[489px] top-[38.72px]" />;
+  return <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 border border-[rgba(224,224,224,0.35)] border-solid rounded-full w-[85%] h-[85%] max-w-[489px] max-h-[489px]" />;
 }
 
 function Frame158() {
@@ -3434,7 +3436,7 @@ function Group55() {
 
 function Frame156() {
   return (
-    <div className="overflow-clip relative rounded-[72.75px] shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] shrink-0 size-[97px]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
+    <div className="overflow-clip relative rounded-full shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] shrink-0 w-[clamp(72px,10vw,97px)] h-[clamp(72px,10vw,97px)]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
       <Group55 />
     </div>
   );
@@ -3821,7 +3823,7 @@ function Group57() {
 
 function Frame166() {
   return (
-    <div className="overflow-clip relative rounded-[72.75px] shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] size-[97px]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
+    <div className="overflow-clip relative rounded-full shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] w-[clamp(72px,10vw,97px)] h-[clamp(72px,10vw,97px)]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
       <Group57 />
     </div>
   );
@@ -3829,12 +3831,14 @@ function Frame166() {
 
 function Frame155() {
   return (
-    <div className="absolute content-stretch flex gap-[132px] items-center left-0 top-[211.72px]">
-      <Frame156 />
-      <Frame159 />
-      <div className="flex items-center justify-center relative shrink-0 size-[97.714px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "153.5" } as React.CSSProperties}>
-        <div className="flex-none rotate-[-0.42deg]">
-          <Frame166 />
+    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[571.714px] px-4 sm:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-[132px] place-items-center">
+        <Frame156 />
+        <Frame159 />
+        <div className="flex items-center justify-center relative w-[clamp(72px,10vw,97.714px)] h-[clamp(72px,10vw,97.714px)]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "153.5" } as React.CSSProperties}>
+          <div className="flex-none rotate-[-0.42deg]">
+            <Frame166 />
+          </div>
         </div>
       </div>
     </div>
@@ -3853,7 +3857,7 @@ function Group58() {
 
 function Frame167() {
   return (
-    <div className="overflow-clip relative rounded-[72.75px] shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] size-[97px]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
+    <div className="overflow-clip relative rounded-full shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] w-[clamp(72px,10vw,97px)] h-[clamp(72px,10vw,97px)]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
       <Group58 />
     </div>
   );
@@ -3898,7 +3902,7 @@ function Frame169() {
 
 function Frame168() {
   return (
-    <div className="overflow-clip relative rounded-[72.75px] shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] size-[97px]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
+    <div className="overflow-clip relative rounded-full shadow-[0px_0px_9.094px_0px_rgba(153,153,153,0.47),0px_0px_12.125px_0px_rgba(64,65,72,0.42)] w-[clamp(72px,10vw,97px)] h-[clamp(72px,10vw,97px)]" style={{ backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.4) 0%, rgba(211, 216, 255, 0.4) 52.5%, rgba(95, 111, 255, 0.4) 100%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
       <Frame169 />
     </div>
   );
@@ -3908,15 +3912,15 @@ function Frame153() {
   return (
     <div className="">
       {/* <Frame149 /> */}
-      <div className="relative h-[567.437px] w-full max-w-[571.714px] mx-auto lg:absolute lg:left-1/2 lg:top-[4561px] lg:-translate-x-1/2">
+      <div className="relative min-h-[420px] sm:min-h-[520px] lg:h-[567.437px] w-full max-w-[571.714px] mx-auto lg:absolute lg:left-1/2 lg:-translate-x-1/2">
         <Frame154 />
         <Frame155 />
-        <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%+0.95px)] size-[97.714px] top-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "28.5" } as React.CSSProperties}>
+        <div className="-translate-x-1/2 absolute flex items-center justify-center left-1/2 top-0 w-[clamp(72px,10vw,97.714px)] h-[clamp(72px,10vw,97.714px)]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "28.5" } as React.CSSProperties}>
           <div className="flex-none rotate-[-0.42deg]">
             <Frame167 />
           </div>
         </div>
-        <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%+1px)] size-[97.714px] top-[469.72px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "172.5" } as React.CSSProperties}>
+        <div className="-translate-x-1/2 absolute flex items-center justify-center left-1/2 bottom-0 w-[clamp(72px,10vw,97.714px)] h-[clamp(72px,10vw,97.714px)]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "172.5" } as React.CSSProperties}>
           <div className="flex-none rotate-[-0.42deg]">
             <Frame168 />
           </div>
@@ -3926,44 +3930,6 @@ function Frame153() {
   );
 }
 
-function Frame172() {
-  return (
-    <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center left-1/2 top-[calc(50%-0.23px)]">
-      <p className="font-['Grift:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#c8c8c8] text-[14.291px] text-center uppercase">Our Trusted Clients</p>
-    </div>
-  );
-}
-
-function Frame171() {
-  return (
-    <div className="backdrop-blur-[1.905px] bg-[rgba(255,255,255,0.07)] h-[34px] relative rounded-[24.771px] shrink-0 w-[178px]">
-      <div className="overflow-clip relative rounded-[inherit] size-full">
-        <Frame172 />
-      </div>
-      <div aria-hidden="true" className="absolute border-[0.953px] border-[rgba(255,255,255,0.26)] border-solid inset-0 pointer-events-none rounded-[24.771px]" />
-    </div>
-  );
-}
-
-function Group60() {
-  return (
-    <div className="font-['Grift:Extra_Bold',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[46.555px] not-italic place-items-start relative shrink-0 text-[40.75px] text-center uppercase whitespace-pre-wrap">
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-[0.5px] mt-[47px] relative row-1 to-[#bababa] to-[77.551%] w-[505px]" style={{ WebkitTextFillColor: "transparent" }}>
-        Success Stories
-      </p>
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-0 relative row-1 to-[#bababa] to-[77.551%] w-[505px]" style={{ WebkitTextFillColor: "transparent" }}>{`Our Clients & Their `}</p>
-    </div>
-  );
-}
-
-function Frame170() {
-  return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[16px] items-center justify-center left-[calc(50%+0.5px)] top-[5280px] w-[403px]">
-      <Frame171 />
-      <Group60 />
-    </div>
-  );
-}
 
 function WesternUnion() {
   return (
@@ -4154,21 +4120,6 @@ function Starbuck() {
   );
 }
 
-function Frame15() {
-  return (
-    <div className="absolute content-stretch flex gap-[57px] h-[37px] items-center justify-center left-0 top-0 w-[1487px]">
-      <WesternUnion />
-      <Webflow />
-      <Grab />
-      <Gojek />
-      <Fedex />
-      <KakaoTalk />
-      <Ford />
-      <Slack />
-      <Starbuck />
-    </div>
-  );
-}
 
 function Grab1() {
   return (
@@ -4375,14 +4326,6 @@ function Frame174() {
   );
 }
 
-function Frame173() {
-  return (
-    <div className="-translate-x-1/2 absolute h-[85px] left-[calc(50%-0.5px)] top-[5479px] w-[1487px]">
-      <Frame15 />
-      <Frame174 />
-    </div>
-  );
-}
 
 function Frame21() {
   return (
@@ -4705,6 +4648,7 @@ function Frame177() {
   return (
     <div className="-translate-x-1/2 absolute bg-gradient-to-b border border-[rgba(255,255,255,0.16)] border-solid from-black h-[613px] left-1/2 overflow-clip rounded-[8px] to-[#23003e] top-[6239px] w-[1440px]">
       <Frame178 />
+      
     </div>
   );
 }
@@ -4739,9 +4683,18 @@ function Frame183() {
         </div>
       </div>
       <Frame184 />
+      <div className="flex justify-center">
+          <p className="bg-clip-text bg-gradient-to-b font-['Grift:Extra_Bold',sans-serif] from-[#bababa] from-[23.469%] leading-[normal] not-italic text-[257.552px] to-[77.551%] to-[rgba(186,186,186,0)] tracking-[5.151px] uppercase" style={{ WebkitTextFillColor: "transparent" }}>
+            instaflow
+          </p>
+        </div>
     </div>
   );
 }
+
+
+
+
 
 export default function Home() {
   return (
@@ -4765,17 +4718,19 @@ export default function Home() {
       <Frame102 />
       <Group47 />
       <Frame111 />
-      <Frame130 />      
-      {/* <Group54 /> */}
-      {/* <Frame153 /> */}
-      <Frame170 />
-      <Frame173 />
-      <Frame175 />
-      <Frame177 />
-      <p className="absolute bg-clip-text bg-gradient-to-b font-['Grift:Extra_Bold',sans-serif] from-[#bababa] from-[23.469%] leading-[normal] left-[calc(50%-718px)] not-italic text-[257.552px] to-[77.551%] to-[rgba(186,186,186,0)] top-[6580px] tracking-[5.151px] uppercase" style={{ WebkitTextFillColor: "transparent" }}>
-        instaflow
-      </p>
-      <Frame183 />
+      <Frame130 />  
+      <Frame149/>    
+      <div className="relative">
+        <Group54 />
+        <Frame153 />
+      </div>
+      
+        {/* <Frame170 />
+        <Frame173 />
+        <Frame175 />
+        <Frame177 />
+        
+        <Frame183 /> */}
     </div>
   );
 }
