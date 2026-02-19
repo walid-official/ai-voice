@@ -1,13 +1,7 @@
-import React from "react";
-import svgPaths from "@/imports/svg-qar94wno65";
 
 function Frame110() {
   return (
-    <p className="font-['Grift:Bold',sans-serif] 
-                  text-[#c8c8c8] 
-                  text-[14.291px] 
-                  uppercase 
-                  text-center whitespace-nowrap">
+    <p className="font-['Grift:Bold',sans-serif] text-[#c8c8c8] uppercase text-center whitespace-nowrap text-[12px] sm:text-[13px] md:text-[14.291px]">
       Smart Growth Solutions
     </p>
   );
@@ -15,24 +9,8 @@ function Frame110() {
 
 function Frame109() {
   return (
-    <div className="relative
-                    flex items-center justify-center
-                    backdrop-blur-[1.905px] 
-                    bg-white/10
-                    h-[34px] 
-                    w-[220px] 
-                    px-5
-                    rounded-full">
-
+    <div className="flex items-center justify-center rounded-full bg-white/10 backdrop-blur-[1.905px] ring-1 ring-white/30 px-5 h-9 sm:h-9 md:h-[34px] min-w-[180px] sm:min-w-[200px] md:min-w-[220px]">
       <Frame110 />
-
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 
-                   border border-white/30 
-                   pointer-events-none 
-                   rounded-full"
-      />
     </div>
   );
 }
@@ -40,18 +18,20 @@ function Frame109() {
 
 function Group51() {
   return (
-    <div className="font-['Grift:Extra_Bold',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[46.555px] not-italic place-items-start relative shrink-0 text-[42.755px] uppercase">
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-[47px] relative row-1 text-center to-[#bababa] to-[77.551%]" style={{ WebkitTextFillColor: "transparent" }}>
+    <div className="font-['Grift:Extra_Bold',sans-serif]  leading-[46.555px] font-bold not-italic uppercase text-[20px] sm:text-[36px]">
+      <p className=" bg-clip-text text-transparent bg-gradient-to-b from-white to-[#bababa] mt-6">
         for Wellness
       </p>
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-0 relative row-1 to-[#bababa] to-[77.551%] w-[391px] whitespace-pre-wrap" style={{ WebkitTextFillColor: "transparent" }}>{`Smarter Growth `}</p>
+      <p className="bg-clip-text text-transparent bg-gradient-to-b from-white to-[#bababa] w-full sm:w-auto whitespace-pre-wrap ">
+        Smarter Growth
+      </p>
     </div>
   );
 }
 
 export function Frame108() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[20px] items-start left-[120px] top-[2405px] w-[438px]">
+    <div className="">
       <Frame109 />
       <Group51 />
     </div>

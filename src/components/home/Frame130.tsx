@@ -32,7 +32,7 @@ function Group52() {
 
 function Frame133() {
   return (
-    <div className="content-stretch flex flex-col gap-[30px] items-start relative shrink-0 w-[505px]">
+    <div className="content-stretch flex flex-col gap-[30px] items-start relative shrink-0 w-full max-w-[505px]">
       <Frame134 />
       <Group52 />
     </div>
@@ -49,7 +49,7 @@ function Frame5() {
 
 function Frame132() {
   return (
-    <div className="content-stretch flex items-end justify-between pb-[35px] relative shrink-0 w-full">
+    <div className="content-stretch flex flex-col gap-6 items-start justify-between pb-[24px] relative shrink-0 w-full md:flex-row md:items-end md:gap-0 md:pb-[35px]">
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.1)] border-b border-solid inset-0 pointer-events-none" />
       <Frame133 />
       <Frame5 />
@@ -59,7 +59,7 @@ function Frame132() {
 
 function Frame137() {
   return (
-    <div className="h-[457px] relative rounded-[15px] shrink-0 w-[664px]">
+    <div className="relative rounded-[15px] shrink-0 w-full max-w-[664px] h-[260px] md:h-[360px] lg:h-[457px]">
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none rounded-[15px]">
         <div className="absolute bg-white inset-0 rounded-[15px]" />
         <img alt="" className="absolute max-w-none object-cover rounded-[15px] size-full" src={imgFrame2147224789} />
@@ -96,7 +96,7 @@ function Frame141() {
 
 function Frame142() {
   return (
-    <div className="content-stretch flex flex-col gap-[10px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[372px] whitespace-pre-wrap">
+    <div className="content-stretch flex flex-col gap-[10px] items-start leading-[normal] not-italic relative shrink-0 text-white w-full max-w-[372px] whitespace-pre-wrap">
       <p className="font-['Grift:Bold',sans-serif] relative shrink-0 text-[17.5px] uppercase w-full">Instant Pickup, Zero Missed Leads</p>
       <div className="font-['Grift:Medium',sans-serif] relative shrink-0 text-[15px] w-full">
         <p className="mb-0">{`Every caller gets answered in seconds, so you never `}</p>
@@ -108,7 +108,7 @@ function Frame142() {
 
 function Frame140() {
   return (
-    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full">
+    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full">
       <Frame141 />
       <Frame142 />
     </div>
@@ -147,7 +147,7 @@ function Frame144() {
 
 function Frame145() {
   return (
-    <div className="content-stretch flex flex-col gap-[10px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[372px] whitespace-pre-wrap">
+    <div className="content-stretch flex flex-col gap-[10px] items-start leading-[normal] not-italic relative shrink-0 text-white w-full max-w-[372px] whitespace-pre-wrap">
       <p className="font-['Grift:Bold',sans-serif] relative shrink-0 text-[17.5px] uppercase w-full">Natural Voice That Builds Trust</p>
       <p className="font-['Grift:Medium',sans-serif] relative shrink-0 text-[15px] w-full">{`Human-like tone and pacing make conversations feel real,increasing conversions and customer satisfaction. `}</p>
     </div>
@@ -156,7 +156,7 @@ function Frame145() {
 
 function Frame143() {
   return (
-    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full">
+    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full">
       <Frame144 />
       <Frame145 />
     </div>
@@ -192,7 +192,7 @@ function Frame147() {
 
 function Frame148() {
   return (
-    <div className="content-stretch flex flex-col gap-[10px] items-start leading-[normal] not-italic relative shrink-0 text-white w-[372px] whitespace-pre-wrap">
+    <div className="content-stretch flex flex-col gap-[10px] items-start leading-[normal] not-italic relative shrink-0 text-white w-full max-w-[372px] whitespace-pre-wrap">
       <p className="font-['Grift:Bold',sans-serif] relative shrink-0 text-[17.5px] uppercase w-full">Unlimited Calls Without Hiring Staff</p>
       <p className="font-['Grift:Medium',sans-serif] relative shrink-0 text-[15px] w-full">Handle high call volume effortlessly with concurrent conversations, reducing costs while maintaining fast response times.</p>
     </div>
@@ -201,7 +201,7 @@ function Frame148() {
 
 function Frame146() {
   return (
-    <div className="content-stretch flex gap-[20px] items-center relative shrink-0 w-full">
+    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full">
       <Frame147 />
       <Frame148 />
     </div>
@@ -220,7 +220,7 @@ function Frame139() {
 
 function Frame138() {
   return (
-    <div className="content-stretch flex flex-col gap-[36px] items-center relative shrink-0 w-[464px]">
+    <div className="content-stretch flex flex-col gap-[36px] items-center relative shrink-0 w-full max-w-[464px]">
       <p className="font-['Grift:Medium',sans-serif] leading-[0] not-italic relative shrink-0 text-[#aaa] text-[0px] text-[18.5px] w-full whitespace-pre-wrap">
         <span className="leading-[normal] text-white">Instaflow</span>
         <span className="leading-[normal]">{` answers every call instantly with natural AI voice agents. Book appointments, handle support, and capture every lead. Scale effortlessly without extra staff, delays, or missed opportunities.`}</span>
@@ -232,7 +232,7 @@ function Frame138() {
 
 function Frame136() {
   return (
-    <div className="content-stretch flex gap-[72px] items-start relative shrink-0 w-full">
+    <div className="content-stretch flex flex-col gap-[32px] items-center relative shrink-0 w-full md:flex-row md:items-start md:gap-[48px] lg:gap-[72px]">
       <Frame137 />
       <Frame138 />
     </div>
@@ -241,7 +241,7 @@ function Frame136() {
 
 function Frame131() {
   return (
-    <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[49px] items-start left-[120px] top-[calc(50%-0.5px)] w-[1200px]">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative mx-auto px-4 md:gap-[40px] md:px-8 lg:absolute lg:left-[120px] lg:top-1/2 lg:-translate-y-1/2 lg:gap-[49px] lg:px-0 lg:w-[1200px] w-full max-w-[1200px]">
       <Frame132 />
       <Frame136 />
     </div>
@@ -250,7 +250,7 @@ function Frame131() {
 
 export function Frame130() {
   return (
-    <div className="-translate-x-1/2 absolute bg-gradient-to-b from-[#181822] h-[1016px] left-1/2 overflow-clip to-[#212330] top-[3088px] w-[1440px]">
+    <div className="relative bg-gradient-to-b from-[#181822] to-[#212330] w-full overflow-clip py-16 md:py-24 lg:py-0 lg:h-[1016px] lg:w-[1440px] lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[3088px]">
       <Frame131 />
     </div>
   );

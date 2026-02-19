@@ -3914,17 +3914,20 @@ function Frame168() {
 
 function Frame153() {
   return (
-    <div className="-translate-x-1/2 absolute h-[567.437px] left-[calc(50%-0.14px)] top-[4561px] w-[571.714px]">
-      <Frame154 />
-      <Frame155 />
-      <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%+0.95px)] size-[97.714px] top-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "28.5" } as React.CSSProperties}>
-        <div className="flex-none rotate-[-0.42deg]">
-          <Frame167 />
+    <div className="">
+      <Frame149 />
+      <div className="relative h-[567.437px] w-full max-w-[571.714px] mx-auto lg:absolute lg:left-1/2 lg:top-[4561px] lg:-translate-x-1/2">
+        <Frame154 />
+        <Frame155 />
+        <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%+0.95px)] size-[97.714px] top-0" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "28.5" } as React.CSSProperties}>
+          <div className="flex-none rotate-[-0.42deg]">
+            <Frame167 />
+          </div>
         </div>
-      </div>
-      <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%+1px)] size-[97.714px] top-[469.72px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "172.5" } as React.CSSProperties}>
-        <div className="flex-none rotate-[-0.42deg]">
-          <Frame168 />
+        <div className="-translate-x-1/2 absolute flex items-center justify-center left-[calc(50%+1px)] size-[97.714px] top-[469.72px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "172.5" } as React.CSSProperties}>
+          <div className="flex-none rotate-[-0.42deg]">
+            <Frame168 />
+          </div>
         </div>
       </div>
     </div>
@@ -4769,11 +4772,13 @@ export default function Home() {
       <Frame97 />
       <Frame102 />
       <Group47 />
-      <Frame108 />
-      <Frame111 />
-      <Frame121 />
+      <div className="">
+        {/* <Frame108 /> */}
+        <Frame111 />
+        {/* <Frame121 /> */}
+      </div>
       <Frame130 />
-      <Frame149 />
+      
       <Group54 />
       <Frame153 />
       <Frame170 />
