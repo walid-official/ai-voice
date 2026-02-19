@@ -3125,24 +3125,16 @@ function ArrowUpRight1() {
 
  
 
-function Frame135() {
+function Frame134() {
   return (
-    <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center left-1/2 top-[calc(50%-0.23px)]">
-      <p className="font-['Grift:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#c8c8c8] text-[14.291px] text-center uppercase">Why Businesses Choose Instaflow</p>
+    <div className="relative w-[286px] h-[34px] rounded-[24.771px]  backdrop-blur-[1.9px] border border-white/30 ">
+      <p className="font-['Grift:Bold',sans-serif] text-[14px] text-[#c8c8c8] uppercase text-center">
+        Why Businesses Choose Instaflow
+      </p>
     </div>
   );
 }
 
-function Frame134() {
-  return (
-    <div className="backdrop-blur-[1.905px] bg-[rgba(255,255,255,0.07)] h-[34px] relative rounded-[24.771px] shrink-0 w-[286px]">
-      <div className="overflow-clip relative rounded-[inherit] size-full">
-        <Frame135 />
-      </div>
-      <div aria-hidden="true" className="absolute border-[0.953px] border-[rgba(255,255,255,0.26)] border-solid inset-0 pointer-events-none rounded-[24.771px]" />
-    </div>
-  );
-}
 
 function Group52() {
   return (
@@ -3915,7 +3907,7 @@ function Frame168() {
 function Frame153() {
   return (
     <div className="">
-      <Frame149 />
+      {/* <Frame149 /> */}
       <div className="relative h-[567.437px] w-full max-w-[571.714px] mx-auto lg:absolute lg:left-1/2 lg:top-[4561px] lg:-translate-x-1/2">
         <Frame154 />
         <Frame155 />
@@ -4753,7 +4745,7 @@ function Frame183() {
 
 export default function Home() {
   return (
-    <div className="bg-[#0a0312] relative min-h-svh w-full overflow-x-hidden" data-name="home">
+    <div className="bg-[#0a0312] relative w-full overflow-x-hidden" data-name="home">
       <Header />
       <WelcomeCard />
     
@@ -4772,15 +4764,10 @@ export default function Home() {
       <Frame97 />
       <Frame102 />
       <Group47 />
-      <div className="">
-        {/* <Frame108 /> */}
-        <Frame111 />
-        {/* <Frame121 /> */}
-      </div>
-      <Frame130 />
-      
-      <Group54 />
-      <Frame153 />
+      <Frame111 />
+      <Frame130 />      
+      {/* <Group54 /> */}
+      {/* <Frame153 /> */}
       <Frame170 />
       <Frame173 />
       <Frame175 />

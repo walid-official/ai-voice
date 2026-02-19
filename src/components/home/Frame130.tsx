@@ -2,28 +2,20 @@ import React from "react";
 import svgPaths from "@/imports/svg-qar94wno65";
 import imgFrame2147224789 from "@/assets/56650cd4279c696bd8aa6eebc2c5127e30fe096a.png";
 
-function Frame135() {
+function Frame134() {
   return (
-    <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center left-1/2 top-[calc(50%-0.23px)]">
-      <p className="font-['Grift:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#c8c8c8] text-[14.291px] text-center uppercase">Why Businesses Choose Instaflow</p>
-    </div>
+    <button className="py-2 rounded-full px-3 bg-white/10 backdrop-blur-[1.9px] border border-white/30 ">
+      <p className="font-['Grift:Bold',sans-serif] text-[14px] text-[#c8c8c8] uppercase text-center">
+        Why Businesses Choose Instaflow
+      </p>
+    </button>
   );
 }
 
-function Frame134() {
-  return (
-    <div className="backdrop-blur-[1.905px] bg-[rgba(255,255,255,0.07)] h-[34px] relative rounded-[24.771px] shrink-0 w-[286px]">
-      <div className="overflow-clip relative rounded-[inherit] size-full">
-        <Frame135 />
-      </div>
-      <div aria-hidden="true" className="absolute border-[0.953px] border-[rgba(255,255,255,0.26)] border-solid inset-0 pointer-events-none rounded-[24.771px]" />
-    </div>
-  );
-}
 
 function Group52() {
   return (
-    <div className="font-['Grift:Extra_Bold',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[46.555px] not-italic place-items-start relative shrink-0 text-[42.755px] uppercase">
+    <div className="font-['Grift:Extra_Bold',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid not-italic place-items-start relative shrink-0 lg:text-[42.755px] text-2xl uppercase">
       <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-[51px] relative row-1 text-center to-[#bababa] to-[77.551%]" style={{ WebkitTextFillColor: "transparent" }}>{`Human voice & Scales.`}</p>
       <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-0 relative row-1 to-[#bababa] to-[77.551%] w-[391px] whitespace-pre-wrap" style={{ WebkitTextFillColor: "transparent" }}>{`Instant calls. `}</p>
     </div>
@@ -41,11 +33,14 @@ function Frame133() {
 
 function Frame5() {
   return (
-    <div className="bg-[#7711e5] h-[50px] overflow-clip relative rounded-[26px] shrink-0 w-[200px]">
-      <p className="absolute font-['Cottorway_Pro:SemiBold',sans-serif] leading-[normal] left-[calc(50%-78px)] not-italic text-[15px] text-white top-[calc(50%-10px)] tracking-[0.6px] uppercase">Talk to an AI Agent</p>
-    </div>
+    <button className="w-[200px] cursor-pointer h-[50px] bg-[#7711e5] rounded-[26px] flex items-center justify-center">
+      <p className="font-['Cottorway_Pro:SemiBold',sans-serif] text-[15px] text-white tracking-[0.6px] uppercase">
+        Talk to an AI Agent
+      </p>
+    </button>
   );
 }
+
 
 function Frame132() {
   return (
@@ -108,9 +103,11 @@ function Frame142() {
 
 function Frame140() {
   return (
-    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full">
+    <div className="content-stretch lg:flex gap-[20px] items-start relative shrink-0 w-full">
       <Frame141 />
-      <Frame142 />
+      <div className="mt-4 lg:mt-0">
+        <Frame142 />
+      </div>
     </div>
   );
 }
@@ -156,9 +153,11 @@ function Frame145() {
 
 function Frame143() {
   return (
-    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full">
+    <div className="content-stretch lg:flex gap-[20px] items-start relative shrink-0 w-full">
       <Frame144 />
-      <Frame145 />
+      <div className="mt-4 lg:mt-0">
+          <Frame145 />
+      </div>
     </div>
   );
 }
@@ -201,9 +200,11 @@ function Frame148() {
 
 function Frame146() {
   return (
-    <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-full">
+    <div className="content-stretch lg:flex gap-[20px] items-start relative shrink-0 w-full">
       <Frame147 />
-      <Frame148 />
+      <div className="mt-2 lg:mt-0">
+       <Frame148 />
+      </div>
     </div>
   );
 }
@@ -232,9 +233,11 @@ function Frame138() {
 
 function Frame136() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-center relative shrink-0 w-full md:flex-row md:items-start md:gap-[48px] lg:gap-[72px]">
+    <div className="content-stretch lg:flex flex-col gap-[32px] items-center relative shrink-0 w-full md:flex-row md:items-start md:gap-[48px] lg:gap-[72px]">
       <Frame137 />
-      <Frame138 />
+      <div className="mt-2 lg:mt-0">
+         <Frame138 />
+      </div>
     </div>
   );
 }
@@ -250,7 +253,7 @@ function Frame131() {
 
 export function Frame130() {
   return (
-    <div className="relative bg-gradient-to-b from-[#181822] to-[#212330] w-full overflow-clip py-16 md:py-24 lg:py-0 lg:h-[1016px] lg:w-[1440px] lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-[3088px]">
+    <div className="relative bg-gradient-to-b from-[#181822] to-[#212330] w-full overflow-clip py-16 md:py-24 lg:py-0 lg:h-[1016px] lg:w-[1440px] lg:absolute lg:left-1/2 lg:-translate-x-1/2 ">
       <Frame131 />
     </div>
   );

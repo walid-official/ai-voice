@@ -47,15 +47,15 @@ function Card({ image, label, className }: CardProps) {
 }
 export function Frame111() {
   return (
-   <section className="w-full max-w-7xl mx-auto lg:flex justify-between gap-6">
+   <section className="w-full px-4 lg:px-0 max-w-7xl mx-auto lg:pb-20 pb-12 lg:flex  gap-6">
   
   {/* Left 30% */}
-  <div className="w-full md:w-[30%]">
+  <div className="lg:w-[40%] w-full">
     <Frame108 />
   </div>
 
   {/* Right 70% */}
-  <div className="w-full md:w-[70%]">
+  <div className="lg:w-[60%] w-full">
     
     <div className="mx-auto w-full grid grid-cols-1 md:grid-cols-[407px_257px] items-end justify-center gap-4 md:gap-6">
       <Card
