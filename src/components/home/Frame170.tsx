@@ -1,14 +1,14 @@
 function Frame172() {
   return (
-    <div className="content-stretch flex items-center justify-center">
-      <p className="font-['Grift:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#c8c8c8] text-[14.291px] text-center uppercase">Our Trusted Clients</p>
-    </div>
+    <p className="font-['Grift:Bold',sans-serif] text-[#c8c8c8] text-[14.291px] text-center uppercase">
+      Our Trusted Clients
+    </p>
   );
 }
 
 function Frame171() {
   return (
-    <div className="backdrop-blur-[1.905px] bg-[rgba(255,255,255,0.07)] h-[34px] rounded-[24.771px] shrink-0 w-[178px] border border-[rgba(255,255,255,0.26)] flex items-center justify-center">
+    <div className="backdrop-blur-[1.905px] bg-[rgba(255,255,255,0.07)] h-[34px] rounded-[24.771px] w-[178px] border border-[rgba(255,255,255,0.26)] flex items-center justify-center">
       <Frame172 />
     </div>
   );
@@ -16,18 +16,26 @@ function Frame171() {
 
 function Group60() {
   return (
-    <div className="font-['Grift:Extra_Bold',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[46.555px] not-italic place-items-start shrink-0 text-[40.75px] text-center uppercase whitespace-pre-wrap">
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-[0.5px] mt-[47px] relative row-1 to-[#bababa] to-[77.551%] w-[505px]" style={{ WebkitTextFillColor: 'transparent' }}>
+    <div className="flex flex-col items-center text-center gap-0">
+      <p
+        className="font-['Grift:Extra_Bold',sans-serif] text-[40.75px] uppercase bg-clip-text bg-gradient-to-b from-white to-[#bababa]"
+        style={{ WebkitTextFillColor: 'transparent', lineHeight: '1.15' }}
+      >
         Success Stories
       </p>
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-0 relative row-1 to-[#bababa] to-[77.551%] w-[505px]" style={{ WebkitTextFillColor: 'transparent' }}>{`Our Clients & Their `}</p>
+      <p
+        className="font-['Grift:Extra_Bold',sans-serif] text-[40.75px] uppercase bg-clip-text bg-gradient-to-b from-white to-[#bababa]"
+        style={{ WebkitTextFillColor: 'transparent', lineHeight: '1.15' }}
+      >
+        Our Clients & Their
+      </p>
     </div>
   );
 }
 
 export function Frame170() {
   return (
-    <div className="content-stretch flex flex-col gap-[16px] items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center gap-[16px] w-full">
       <Frame171 />
       <Group60 />
     </div>

@@ -1,8 +1,11 @@
 import svgPaths from "@/imports/svg-qar94wno65";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, FreeMode } from "swiper/modules";
+import "swiper/css";
 
 function WesternUnion() {
   return (
-    <div className="h-[37px] shrink-0 w-[189px]" data-name="Western Union">
+    <div className="h-[37px] shrink-0 w-[189px] md:h-[37px] md:w-[189px] sm:h-[32px] sm:w-[162px]" data-name="Western Union">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 189 37">
         <g id="Western Union">
           <g id="Vector">
@@ -32,7 +35,7 @@ function WesternUnion() {
 
 function Webflow() {
   return (
-    <div className="h-[32px] shrink-0 w-[121px]" data-name="Webflow">
+    <div className="h-[32px] shrink-0 w-[121px] md:h-[32px] md:w-[121px] sm:h-[28px] sm:w-[108px]" data-name="Webflow">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 121 32">
         <g clipPath="url(#clip0_1_2466)" id="Webflow">
           <path clipRule="evenodd" d={svgPaths.p19bbe900} fill="var(--fill-0, #8F8F8F)" fillRule="evenodd" id="Vector" />
@@ -58,7 +61,7 @@ function Webflow() {
 
 function Grab() {
   return (
-    <div className="h-[31px] shrink-0 w-[58px]" data-name="Grab">
+    <div className="h-[31px] shrink-0 w-[58px] md:h-[31px] md:w-[58px] sm:h-[28px] sm:w-[52px]" data-name="Grab">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 58 31">
         <g id="Grab">
           <path d={svgPaths.p18fbf700} fill="var(--fill-0, #8F8F8F)" id="Vector" />
@@ -70,7 +73,7 @@ function Grab() {
 
 function Gojek() {
   return (
-    <div className="h-[27px] shrink-0 w=[105.75px]" data-name="Gojek">
+    <div className="h-[27px] shrink-0 w-[105.75px] md:h-[27px] md:w-[105.75px] sm:h-[24px] sm:w-[95px]" data-name="Gojek">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 105.75 27">
         <g id="Gojek">
           <g id="Vector">
@@ -90,7 +93,7 @@ function Gojek() {
 
 function Fedex() {
   return (
-    <div className="h-[28.061px] shrink-0 w-[66.207px]" data-name="Fedex">
+    <div className="h-[28.061px] shrink-0 w-[66.207px] md:h-[28.061px] md:w-[66.207px] sm:h-[25px] sm:w-[59px]" data-name="Fedex">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 66.2073 28.0614">
         <g clipPath="url(#clip0_1_2460)" id="Fedex">
           <path d={svgPaths.p1d8d6b00} fill="var(--fill-0, #8F8F8F)" id="Vector" />
@@ -107,7 +110,7 @@ function Fedex() {
 
 function KakaoTalk() {
   return (
-    <div className="h-[32.645px] shrink-0 w-[92px]" data-name="Kakao Talk">
+    <div className="h-[32.645px] shrink-0 w-[92px] md:h-[32.645px] md:w-[92px] sm:h-[28px] sm:w-[82px]" data-name="Kakao Talk">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 92 32.6452">
         <g id="Kakao Talk">
           <g id="Vector">
@@ -126,7 +129,7 @@ function KakaoTalk() {
 
 function Ford() {
   return (
-    <div className="h-[32.116px] shrink-0 w-[59.214px]" data-name="Ford">
+    <div className="h-[32.116px] shrink-0 w-[59.214px] md:h-[32.116px] md:w-[59.214px] sm:h-[28px] sm:w-[54px]" data-name="Ford">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 59.2139 32.116">
         <g clipPath="url(#clip0_1_2457)" id="Ford">
           <g id="Vector">
@@ -146,7 +149,7 @@ function Ford() {
 
 function Slack() {
   return (
-    <div className="h-[29.977px] shrink-0 w-[82.904px]" data-name="Slack">
+    <div className="h-[29.977px] shrink-0 w-[82.904px] md:h-[29.977px] md:w-[82.904px] sm:h-[26px] sm:w-[74px]" data-name="Slack">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 82.9038 29.9765">
         <g clipPath="url(#clip0_1_2454)" id="Slack">
           <g id="Vector">
@@ -166,7 +169,7 @@ function Slack() {
 
 function Starbuck() {
   return (
-    <div className="h-[28px] shrink-0 w-[177px]" data-name="Starbuck">
+    <div className="h-[28px] shrink-0 w-[177px] md:h-[28px] md:w-[177px] sm:h-[26px] sm:w-[160px]" data-name="Starbuck">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 177 28">
         <g clipPath="url(#clip0_1_2450)" id="Starbuck">
           <path d={svgPaths.p2c1be00} fill="var(--fill-0, #8F8F8F)" id="Vector" />
@@ -184,7 +187,7 @@ function Starbuck() {
 
 function Grab1() {
   return (
-    <div className="h-[31px] shrink-0 w-[58px]" data-name="Grab">
+    <div className="h-[31px] shrink-0 w-[58px] md:h-[31px] md:w-[58px] sm:h-[28px] sm:w-[52px]" data-name="Grab">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 58 31">
         <g id="Grab">
           <path d={svgPaths.p18fbf700} fill="var(--fill-0, #8F8F8F)" id="Vector" />
@@ -196,7 +199,7 @@ function Grab1() {
 
 function Ford1() {
   return (
-    <div className="h-[32.116px] shrink-0 w-[59.214px]" data-name="Ford">
+    <div className="h-[32.116px] shrink-0 w-[59.214px] md:h-[32.116px] md:w-[59.214px] sm:h-[28px] sm:w-[54px]" data-name="Ford">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 59.2139 32.116">
         <g clipPath="url(#clip0_1_2457)" id="Ford">
           <g id="Vector">
@@ -216,7 +219,7 @@ function Ford1() {
 
 function Gojek1() {
   return (
-    <div className="h-[27px] shrink-0 w-[105.75px]" data-name="Gojek">
+    <div className="h-[27px] shrink-0 w-[105.75px] md:h-[27px] md:w-[105.75px] sm:h-[24px] sm:w-[95px]" data-name="Gojek">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 105.75 27">
         <g id="Gojek">
           <g id="Vector">
@@ -236,7 +239,7 @@ function Gojek1() {
 
 function Fedex1() {
   return (
-    <div className="h-[28.061px] shrink-0 w-[66.207px]" data-name="Fedex">
+    <div className="h-[28.061px] shrink-0 w-[66.207px] md:h-[28.061px] md:w-[66.207px] sm:h-[25px] sm:w-[59px]" data-name="Fedex">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 66.2073 28.0614">
         <g clipPath="url(#clip0_1_2460)" id="Fedex">
           <path d={svgPaths.p1d8d6b00} fill="var(--fill-0, #8F8F8F)" id="Vector" />
@@ -253,7 +256,7 @@ function Fedex1() {
 
 function KakaoTalk1() {
   return (
-    <div className="h-[32.645px] shrink-0 w-[92px]" data-name="Kakao Talk">
+    <div className="h-[32.645px] shrink-0 w-[92px] md:h-[32.645px] md:w-[92px] sm:h-[28px] sm:w-[82px]" data-name="Kakao Talk">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 92 32.6452">
         <g id="Kakao Talk">
           <g id="Vector">
@@ -272,7 +275,7 @@ function KakaoTalk1() {
 
 function Starbuck1() {
   return (
-    <div className="h-[28px] shrink-0 w-[177px]" data-name="Starbuck">
+    <div className="h-[28px] shrink-0 w-[177px] md:h-[28px] md:w-[177px] sm:h-[26px] sm:w-[160px]" data-name="Starbuck">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 177 28">
         <g clipPath="url(#clip0_1_2450)" id="Starbuck">
           <path d={svgPaths.p2c1be00} fill="var(--fill-0, #8F8F8F)" id="Vector" />
@@ -290,7 +293,7 @@ function Starbuck1() {
 
 function Slack1() {
   return (
-    <div className="h-[29.977px] shrink-0 w-[82.904px]" data-name="Slack">
+    <div className="h-[29.977px] shrink-0 w-[82.904px] md:h-[29.977px] md:w-[82.904px] sm:h-[26px] sm:w-[74px]" data-name="Slack">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 82.9038 29.9765">
         <g clipPath="url(#clip0_1_2454)" id="Slack">
           <g id="Vector">
@@ -310,7 +313,7 @@ function Slack1() {
 
 function WesternUnion1() {
   return (
-    <div className="h-[37px] shrink-0 w-[189px]" data-name="Western Union">
+    <div className="h-[37px] shrink-0 w-[189px] md:h-[37px] md:w-[189px] sm:h-[32px] sm:w-[162px]" data-name="Western Union">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 189 37">
         <g id="Western Union">
           <g id="Vector">
@@ -340,7 +343,7 @@ function WesternUnion1() {
 
 function Webflow1() {
   return (
-    <div className="h-[32px] shrink-0 w-[121px]" data-name="Webflow">
+    <div className="h-[32px] shrink-0 w-[121px] md:h-[32px] md:w-[121px] sm:h-[28px] sm:w-[108px]" data-name="Webflow">
       <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 121 32">
         <g clipPath="url(#clip0_1_2466)" id="Webflow">
           <path clipRule="evenodd" d={svgPaths.p19bbe900} fill="var(--fill-0, #8F8F8F)" fillRule="evenodd" id="Vector" />
@@ -366,41 +369,141 @@ function Webflow1() {
 
 function Frame15() {
   return (
-    <div className="content-stretch flex flex-wrap gap-[57px] items-center justify-center w-full">
-      <WesternUnion />
-      <Webflow />
-      <Grab />
-      <Gojek />
-      <Fedex />
-      <KakaoTalk />
-      <Ford />
-      <Slack />
-      <Starbuck />
+    <div className="relative w-full overflow-hidden">
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-16 sm:w-24 lg:w-40 bg-gradient-to-r from-[#0a0312] to-transparent z-10" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-16 sm:w-24 lg:w-40 bg-gradient-to-l from-[#0a0312] to-transparent z-10" />
+      <Swiper
+        modules={[Autoplay, FreeMode]}
+        loop={true}
+        speed={5000}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: false,
+          reverseDirection: false
+        }}
+        freeMode={{
+          enabled: true,
+          momentum: false,
+          sticky: false
+        }}
+        slidesPerView="auto"
+        centeredSlides={false}
+        spaceBetween={24}
+        allowTouchMove={false}
+        breakpoints={{
+          640: {
+            spaceBetween: 32
+          },
+          1024: {
+            spaceBetween: 57
+          }
+        }}
+        className="!overflow-visible"
+      >
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <WesternUnion />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Webflow />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Grab />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Gojek />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Fedex />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <KakaoTalk />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Ford />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Slack />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Starbuck />
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 }
 
 function Frame174() {
   return (
-    <div className="content-stretch flex flex-wrap gap-[57px] items-center justify-center w-full mt-6">
-      <Grab1 />
-      <Ford1 />
-      <Gojek1 />
-      <Fedex1 />
-      <KakaoTalk1 />
-      <Starbuck1 />
-      <Slack1 />
-      <WesternUnion1 />
-      <Webflow1 />
+    <div className="relative w-full overflow-hidden mt-6">
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-16 sm:w-24 lg:w-40 bg-gradient-to-r from-[#0a0312] to-transparent z-10" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-16 sm:w-24 lg:w-40 bg-gradient-to-l from-[#0a0312] to-transparent z-10" />
+      <Swiper
+        modules={[Autoplay, FreeMode]}
+        loop={true}
+        speed={3000}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: false,
+          reverseDirection: true
+        }}
+        freeMode={{
+          enabled: true,
+          momentum: false,
+          sticky: false
+        }}
+        slidesPerView="auto"
+        centeredSlides={false}
+        spaceBetween={24}
+        allowTouchMove={false}
+        breakpoints={{
+          640: {
+            spaceBetween: 32
+          },
+          1024: {
+            spaceBetween: 57
+          }
+        }}
+        className="!overflow-visible"
+      >
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Grab1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Ford1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Gojek1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Fedex1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <KakaoTalk1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Starbuck1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Slack1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <WesternUnion1 />
+        </SwiperSlide>
+        <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
+          <Webflow1 />
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 }
 
 export function Frame173() {
   return (
-    <div className="w-full max-w-[1487px] mx-auto">
+    <section className="w-full max-w-7xl overflow-x-hidden mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 ">
       <Frame15 />
       <Frame174 />
-    </div>
+    </section>
   );
 }

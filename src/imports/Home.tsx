@@ -3910,7 +3910,7 @@ function Frame168() {
 
 function Frame153() {
   return (
-    <div className="">
+    <div className="min-h-180">
       {/* <Frame149 /> */}
       <div className="relative min-h-[420px] sm:min-h-[520px] lg:h-[567.437px] w-full max-w-[571.714px] mx-auto lg:absolute lg:left-1/2 lg:-translate-x-1/2">
         <Frame154 />
@@ -4724,10 +4724,11 @@ export default function Home() {
         <Group54 />
         <Frame153 />
       </div>
-      
-        {/* <Frame170 />
-        <Frame173 />
-        <Frame175 />
+      <div className="relative">
+          <Frame170 />
+          <Frame173 />
+      </div>
+        {/* <Frame175 />
         <Frame177 />
         
         <Frame183 /> */}
