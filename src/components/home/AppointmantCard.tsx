@@ -68,7 +68,7 @@ function CTA() {
   );
 }
 
-export function Frame97() {
+export function AppointmantCard() {
   return (
     <section className="w-full py-20">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 md:px-8">

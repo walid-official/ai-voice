@@ -144,7 +144,7 @@ function VoiceSelector() {
         <IconoirVoice />
         <div className="w-[85px] relative h-[85px] rounded-full bg-white/5 border border-white/20 flex items-center justify-center">
           <Frame13 />
-          <div className="absolute inset-[-163.93%_-178.06%]">
+          <div className="absolute pointer-events-none inset-[-163.93%_-178.06%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 389.622 396.985">
               <g filter="url(#filter0_f_1_3573)" id="Ellipse 730">
                 <ellipse cx="194.811" cy="198.493" fill="var(--fill-0, #CD9EFF)" rx="42.7107" ry="46.3927" />
@@ -176,7 +176,7 @@ function VoiceSelector() {
 
 function Frame74() {
   return (
-    <button className="w-full cursor-pointer bg-white text-[#0e041a] font-bold uppercase text-sm py-3 rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition">
+    <button className="w-full cursor-pointer bg-white text-[#0e041a] font-bold uppercase text-sm py-3 rounded-lg flex items-center justify-center gap-2 transition">
       Talk to Professional
     </button>
   );
@@ -196,12 +196,12 @@ function PlayButton() {
 
 function Frame68() {
   return (
-  <div className="-translate-x-1/2 rounded-full -translate-y-1/2 absolute content-stretch flex gap-[4.5px] items-center left-1/2 top-[calc(50%+0.27px)] w-[83.7px]">
+  <button className="-translate-x-1/2 rounded-full cursor-pointer -translate-y-1/2 absolute content-stretch flex gap-[4.5px] items-center left-1/2 top-[calc(50%+0.27px)] w-[83.7px]">
     <div>
       <PlayButton />
      </div>
       <p className="font-['Cottorway_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#f6f6f6] text-[13.5px] tracking-[0.405px] uppercase">Preview</p>
-    </div>
+    </button>
   );
 }
 
@@ -220,7 +220,7 @@ function Ai() {
     <div className="relative w-full max-w-[620px] bg-[rgba(3,3,3,0.57)] border border-[#353535] rounded-[20px] p-6 flex flex-col gap-6">
 
       {/* Glow Effect */}
-      <div className="absolute w-[150px] h-[150px] bg-[#CD9EFF] blur-[120px] opacity-40 rounded-full self-center" />
+      <div className="absolute pointer-events-none w-[150px] h-[150px] bg-[#CD9EFF] blur-[120px] opacity-40 rounded-full self-center" />
 
       <p className="text-center text-[17px] uppercase font-['Neon:Heavy',sans-serif] bg-clip-text bg-gradient-to-r from-white to-[#cd9eff] text-transparent">
         Experience InstaFlow

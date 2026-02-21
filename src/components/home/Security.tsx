@@ -102,7 +102,7 @@ function FeatureCard({
   );
 }
 
-export function Frame88() {
+export function Security() {
   return (
     <section className="w-full lg:mt-60 mt-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 sm:py-8 md:py-10 flex flex-col gap-[24px] sm:gap-[32px] md:gap-[44px]">
