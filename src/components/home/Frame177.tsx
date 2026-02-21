@@ -1,0 +1,75 @@
+import React from "react";
+
+
+
+function Frame185() {
+  return (
+    <div className="content-stretch flex gap-[34px] items-center relative shrink-0">
+      <p className="relative shrink-0">{`Privacy & policy`}</p>
+      <p className="relative shrink-0">{`Terms & conditions`}</p>
+      <p className="relative shrink-0">contact us</p>
+    </div>
+  );
+}
+
+function Frame184() {
+  return (
+    <div className=" max-w-7xl mx-auto mt-8 flex font-['Cottorway_Pro:Medium',sans-serif] items-center justify-between leading-[normal] not-italic  shrink-0 text-[#727272] text-[12.741px] uppercase ">
+      <p className="relative shrink-0">© 2026 InstaFlow AI. Strategy Calls Only. Custom Quoting.</p>
+      <Frame185 />
+    </div>
+  );
+}
+
+export function Frame177() {
+  return (
+    <div className="w-full relative bg-gradient-to-b from-black to-[#23003e] border border-[rgba(255,255,255,0.16)] rounded-[8px] py-[91px] overflow-hidden">
+      {/* Top content */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-end gap-6 px-4 lg:px-0 ">
+        <div className="lg:flex flex-col justify-between">
+          <div className="backdrop-blur-[1.905px] bg-[rgba(255,255,255,0.07)] h-[34px] rounded-[24.771px] flex items-center justify-center w-[300px] px-1">
+            <p className="font-['Grift:Bold',sans-serif] text-[#c8c8c8] text-[14.291px] text-center uppercase">
+              STAY UPDATED WITH INSTAFLOW NEWS
+            </p>
+          </div>
+          <div
+            className="bg-clip-text mt-4 lg:mt-0 bg-gradient-to-b from-white to-[#bababa] font-['Grift:Extra_Bold',sans-serif] leading-[46.555px] min-w-full text-[30px] lg:text-[40.75px] uppercase w-[min-content] whitespace-pre-wrap"
+            style={{ WebkitTextFillColor: "transparent" }}
+          >
+            <p className="mb-0">{`STAY UPDATED WITH `}</p>
+            <p className="text-[rgba(255,255,255,0.44)]">INSTAFLOW NEWS</p>
+          </div>
+        </div>
+        <div className="">
+          <div className="">
+            <div className="bg-[rgba(255,255,255,0.07)] h-[58.608px] rounded-[36.524px] lg:w-[423px] flex items-center justify-between pl-6 pr-2">
+              <p className="font-['Cottorway_Pro:Medium',sans-serif] text-[#939393] text-[8px] lg:text-[12.741px] tracking-[0.5096px] uppercase">
+                enter email address
+              </p>
+              <button className="bg-[#7711e5] h-[37.373px] rounded-[22.084px] px-3 lg:px-5">
+                <span className="font-['Cottorway_Pro:SemiBold',sans-serif] text-[12.741px] text-white tracking-[0.5096px] uppercase">
+                  subscribe now
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div className="h-[40vh] mt-4">
+         <div >
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1440.01 1">
+            <line id="Line 2" stroke="var(--stroke-0, #2F2F2F)" strokeOpacity="0.58" x2="1440.01" y1="0.5" y2="0.5" />
+          </svg>
+        </div>
+        <Frame184 />
+       </div>
+      {/* Bottom text */}
+      <p
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-clip-text bg-gradient-to-b font-['Grift:Extra_Bold',sans-serif] from-[#bababa] from-[23.469%] leading-[normal] not-italic text-[257.552px] to-[77.551%] to-[rgba(186,186,186,0)] tracking-[5.151px] uppercase pointer-events-none select-none"
+        style={{ WebkitTextFillColor: "transparent" }}
+      >
+        instaflow
+      </p>
+    </div>
+  );
+}

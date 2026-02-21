@@ -26,6 +26,8 @@ import { Frame149 } from "@/components/home/Frame149";
 import { Group54 } from "@/components/home/Group54";
 import { Frame170 } from "@/components/home/Frame170";
 import { Frame173 } from "@/components/home/Frame173";
+import { Frame175 } from "@/components/home/Frame175";
+import { Frame177 } from "@/components/home/Frame177";
 
 
 function Group5() {
@@ -4575,83 +4577,9 @@ function Frame176() {
   );
 }
 
-function Frame175() {
-  return (
-    <div className="-translate-x-1/2 absolute h-[649px] left-1/2 top-[5427px] w-[1440px]">
-      <Frame22 />
-      <Frame176 />
-    </div>
-  );
-}
+ 
 
-function Frame181() {
-  return (
-    <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex items-center left-[calc(50%+0.5px)] top-[calc(50%-0.23px)]">
-      <p className="font-['Grift:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#c8c8c8] text-[14.291px] text-center uppercase">STAY UPDATED WITH INSTAFLOW NEWS</p>
-    </div>
-  );
-}
-
-function Frame180() {
-  return (
-    <div className="backdrop-blur-[1.905px] bg-[rgba(255,255,255,0.07)] h-[34px] relative rounded-[24.771px] shrink-0 w-[287px]">
-      <div className="overflow-clip relative rounded-[inherit] size-full">
-        <Frame181 />
-      </div>
-      <div aria-hidden="true" className="absolute border-[0.953px] border-[rgba(255,255,255,0.26)] border-solid inset-0 pointer-events-none rounded-[24.771px]" />
-    </div>
-  );
-}
-
-function Frame179() {
-  return (
-    <div className="content-stretch flex flex-col gap-[22px] items-start relative shrink-0 w-[402px]">
-      <Frame180 />
-      <div className="bg-clip-text bg-gradient-to-b font-['Grift:Extra_Bold',sans-serif] from-[23.469%] from-white leading-[46.555px] min-w-full not-italic relative shrink-0 text-[40.75px] to-[#bababa] to-[77.551%] uppercase w-[min-content] whitespace-pre-wrap" style={{ WebkitTextFillColor: "transparent" }}>
-        <p className="mb-0">{`STAY UPDATED WITH `}</p>
-        <p className="text-[rgba(255,255,255,0.44)]">INSTAFLOW NEWS</p>
-      </div>
-    </div>
-  );
-}
-
-function Frame12() {
-  return (
-    <div className="-translate-y-1/2 absolute bg-[#7711e5] h-[37.373px] left-[276.9px] overflow-clip rounded-[22.084px] top-[calc(50%+0.42px)] w-[135.054px]">
-      <p className="absolute font-['Cottorway_Pro:SemiBold',sans-serif] leading-[normal] left-[calc(50%-49.69px)] not-italic text-[12.741px] text-white top-[calc(50%-8.49px)] tracking-[0.5096px] uppercase">subscribe now</p>
-    </div>
-  );
-}
-
-function Frame182() {
-  return (
-    <div className="bg-[rgba(255,255,255,0.07)] h-[58.608px] relative rounded-[36.524px] shrink-0 w-[423px]">
-      <div className="overflow-clip relative rounded-[inherit] size-full">
-        <Frame12 />
-        <p className="absolute font-['Cottorway_Pro:Medium',sans-serif] leading-[normal] left-[calc(50%-181.5px)] not-italic text-[#939393] text-[12.741px] top-[calc(50%-9.3px)] tracking-[0.5096px] uppercase">enter email address</p>
-      </div>
-      <div aria-hidden="true" className="absolute border-[0.849px] border-[rgba(255,255,255,0.2)] border-solid inset-0 pointer-events-none rounded-[36.524px]" />
-    </div>
-  );
-}
-
-function Frame178() {
-  return (
-    <div className="absolute content-stretch flex items-end justify-between left-[119px] top-[91px] w-[1199px]">
-      <Frame179 />
-      <Frame182 />
-    </div>
-  );
-}
-
-function Frame177() {
-  return (
-    <div className="-translate-x-1/2 absolute bg-gradient-to-b border border-[rgba(255,255,255,0.16)] border-solid from-black h-[613px] left-1/2 overflow-clip rounded-[8px] to-[#23003e] top-[6239px] w-[1440px]">
-      <Frame178 />
-      
-    </div>
-  );
-}
+ 
 
 function Frame185() {
   return (
@@ -4728,10 +4656,10 @@ export default function Home() {
           <Frame170 />
           <Frame173 />
       </div>
-        {/* <Frame175 />
+        <Frame175 />
         <Frame177 />
         
-        <Frame183 /> */}
+        {/* <Frame183 /> */}
     </div>
   );
 }

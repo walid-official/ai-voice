@@ -375,12 +375,14 @@ function Frame15() {
       <Swiper
         modules={[Autoplay, FreeMode]}
         loop={true}
-        speed={5000}
+        speed={8000}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
           pauseOnMouseEnter: false,
-          reverseDirection: false
+          reverseDirection: false,
+          waitForTransition: false,
+          stopOnLastSlide: false
         }}
         freeMode={{
           enabled: true,
@@ -400,6 +402,7 @@ function Frame15() {
           }
         }}
         className="!overflow-visible"
+        wrapperClass="transition-transform duration-0"
       >
         <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
           <WesternUnion />
@@ -441,12 +444,14 @@ function Frame174() {
       <Swiper
         modules={[Autoplay, FreeMode]}
         loop={true}
-        speed={3000}
+        speed={8000}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
           pauseOnMouseEnter: false,
-          reverseDirection: true
+          reverseDirection: true,
+          waitForTransition: false,
+          stopOnLastSlide: false
         }}
         freeMode={{
           enabled: true,
@@ -466,6 +471,7 @@ function Frame174() {
           }
         }}
         className="!overflow-visible"
+        wrapperClass="transition-transform duration-0"
       >
         <SwiperSlide className="!w-auto flex items-center justify-center opacity-60 hover:opacity-100 transition-opacity duration-300">
           <Grab1 />
@@ -501,7 +507,7 @@ function Frame174() {
 
 export function Frame173() {
   return (
-    <section className="w-full max-w-7xl overflow-x-hidden mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 ">
+    <section className="w-full max-w-7xl overflow-x-hidden mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
       <Frame15 />
       <Frame174 />
     </section>
