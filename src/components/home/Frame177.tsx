@@ -4,7 +4,7 @@ import React from "react";
 
 function Frame185() {
   return (
-    <div className="content-stretch flex gap-[34px] items-center relative shrink-0">
+    <div className="content-stretch lg:flex space-y-2 gap-[34px] items-center relative shrink-0">
       <p className="relative shrink-0">{`Privacy & policy`}</p>
       <p className="relative shrink-0">{`Terms & conditions`}</p>
       <p className="relative shrink-0">contact us</p>
@@ -14,9 +14,11 @@ function Frame185() {
 
 function Frame184() {
   return (
-    <div className=" max-w-7xl mx-auto mt-8 flex font-['Cottorway_Pro:Medium',sans-serif] items-center justify-between leading-[normal] not-italic  shrink-0 text-[#727272] text-[12.741px] uppercase ">
+    <div className=" max-w-7xl px-3 lg:px-0 mx-auto mt-8 lg:flex font-['Cottorway_Pro:Medium',sans-serif] items-center justify-between leading-[normal] not-italic  shrink-0 text-[#727272] text-[12.741px] uppercase ">
       <p className="relative shrink-0">© 2026 InstaFlow AI. Strategy Calls Only. Custom Quoting.</p>
-      <Frame185 />
+      <div className="mt-4">
+         <Frame185 />
+      </div>
     </div>
   );
 }
@@ -55,7 +57,7 @@ export function Frame177() {
           </div>
         </div>
       </div>
-       <div className="h-[40vh] mt-4">
+       <div className="md:h-[40vh] h-[30vh] mt-4">
          <div >
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1440.01 1">
             <line id="Line 2" stroke="var(--stroke-0, #2F2F2F)" strokeOpacity="0.58" x2="1440.01" y1="0.5" y2="0.5" />
@@ -64,12 +66,21 @@ export function Frame177() {
         <Frame184 />
        </div>
       {/* Bottom text */}
-      <p
-        className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-clip-text bg-gradient-to-b font-['Grift:Extra_Bold',sans-serif] from-[#bababa] from-[23.469%] leading-[normal] not-italic text-[257.552px] to-[77.551%] to-[rgba(186,186,186,0)] tracking-[5.151px] uppercase pointer-events-none select-none"
-        style={{ WebkitTextFillColor: "transparent" }}
-      >
-        instaflow
-      </p>
+    <p
+  className="
+    absolute bottom-0 left-1/2 -translate-x-1/2
+    bg-clip-text bg-gradient-to-b 
+    font-['Grift:Extra_Bold',sans-serif] 
+    from-[#bababa] from-[23.469%] to-[77.551%] to-[rgba(186,186,186,0)] 
+    uppercase pointer-events-none select-none
+    text-[60px] sm:text-[160px] md:text-[200px] lg:text-[257px] 
+    leading-[1] sm:leading-[1] md:leading-[1] lg:leading-[1] 
+    tracking-[2px] sm:tracking-[3px] md:tracking-[4px] lg:tracking-[5.151px]
+  "
+  style={{ WebkitTextFillColor: "transparent" }}
+>
+  instaflow
+</p>
     </div>
   );
 }
