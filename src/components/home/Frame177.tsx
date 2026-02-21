@@ -35,15 +35,14 @@ export function Frame177() {
             </p>
           </div>
           <div
-            className="bg-clip-text mt-4 lg:mt-0 bg-gradient-to-b from-white to-[#bababa] font-['Grift:Extra_Bold',sans-serif] leading-[46.555px] min-w-full text-[30px] lg:text-[40.75px] uppercase w-[min-content] whitespace-pre-wrap"
+            className="bg-clip-text mt-4 lg:mt-0 bg-gradient-to-b from-white to-[#bababa] font-['Grift:Extra_Bold',sans-serif] font-bold leading-[46.555px] min-w-full text-[30px] lg:text-[40.75px] uppercase w-[min-content] whitespace-pre-wrap"
             style={{ WebkitTextFillColor: "transparent" }}
           >
             <p className="mb-0">{`STAY UPDATED WITH `}</p>
-            <p className="text-[rgba(255,255,255,0.44)]">INSTAFLOW NEWS</p>
+            <p className="text-[#BABABA]">INSTAFLOW NEWS</p>
           </div>
         </div>
-        <div className="">
-          <div className="">
+          <div className="flex justify-end">
             <div className="bg-[rgba(255,255,255,0.07)] h-[58.608px] rounded-[36.524px] lg:w-[423px] flex items-center justify-between pl-6 pr-2">
               <p className="font-['Cottorway_Pro:Medium',sans-serif] text-[#939393] text-[8px] lg:text-[12.741px] tracking-[0.5096px] uppercase">
                 enter email address
@@ -55,7 +54,7 @@ export function Frame177() {
               </button>
             </div>
           </div>
-        </div>
+    
       </div>
        <div className="md:h-[40vh] h-[30vh] mt-4">
          <div >
@@ -69,7 +68,7 @@ export function Frame177() {
     <p
   className="
     absolute bottom-0 left-1/2 -translate-x-1/2
-    bg-clip-text bg-gradient-to-b 
+    bg-clip-text font-bold bg-gradient-to-b 
     font-['Grift:Extra_Bold',sans-serif] 
     from-[#bababa] from-[23.469%] to-[77.551%] to-[rgba(186,186,186,0)] 
     uppercase pointer-events-none select-none
