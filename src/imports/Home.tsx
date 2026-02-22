@@ -8,6 +8,7 @@ import imgFrame559 from "@/assets/4eeccfd51cdff1c2eee566f49810dd46d400bbf7.png";
 import imgEllipse1 from "@/assets/63298ab6f6ffbf8b31384c0bedddf190a35e7fac.png";
 import imgEllipse2 from "@/assets/484c632f1919fed56f410e4a64cd5889954b04b0.png";
 import imgEllipse3 from "@/assets/bd025e30d4127960c4c894af8910c29c1b31426d.png";
+import workflowSvg from "@/assets/workflow.svg";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Header from "@/components/home/Header";
@@ -27,7 +28,7 @@ import { Group54 } from "@/components/home/Group54";
 import { Frame170 } from "@/components/home/Frame170";
 import { Frame173 } from "@/components/home/Frame173";
 import { Testimonial } from "@/components/home/Testimonial";
-import { Frame177 } from "@/components/home/Frame177";
+import { Footer } from "@/components/home/Footer";
 import EffortlessGrowth from "@/components/home/EffortlessGrowth";
 
 
@@ -3806,13 +3807,6 @@ export default function Home() {
       <div className="relative mt-20">
         <EffortlessGrowth />
       </div>
-      {/* <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+1px)] top-[1019px] w-[1440.009px]">
-        <div className="absolute inset-[-1px_0_0_0]">
-          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1440.01 1">
-            <line id="Line 1" stroke="var(--stroke-0, #2F2F2F)" strokeOpacity="0.58" x2="1440.01" y1="0.5" y2="0.5" />
-          </svg>
-        </div>
-      </div> */}
       <Security />
       {/* <AppointmantCard /> */}
       <Frame102 />
@@ -3820,20 +3814,13 @@ export default function Home() {
       <SmartGrowth />
       <Frame130 />  
       <WorkflowHeading/>    
-      <div className="relative">
-        {/* <Group54 /> */}
-        <WorkflowContent />
+      <div className="relative pb-20">
+        <img src={workflowSvg} alt="" className="mx-auto w-full max-w-[571.714px]" />
          {/* Glow Background */}
         <div className="absolute top-[12%] left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-[#8C21FF]/20 blur-[100px]" />
       </div>
-      {/* <div className="relative">
-          <Frame170 />
-          <Frame173 />
-      </div> */}
         <Testimonial />
-        <Frame177 />
-        
-        {/* <Frame183 /> */}
+        <Footer />
     </div>
   );
 }

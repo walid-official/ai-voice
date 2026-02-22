@@ -120,12 +120,12 @@ function VoiceSelector() {
   return (
     <div className="w-full">
 
-      <div className="bg-[#15151a]  border border-white/10 rounded-xl p-4 gap-4">
+      <div className="bg-transparent  border border-white/40 rounded-xl p-4 gap-4">
         <p className="text-[#7e8faa] pb-2 text-[12px] tracking-widest uppercase">
           Select Voice Agent Profile
         </p>
         <div className="lg:flex justify-between gap-4">
-            <div className="flex lg:w-[100%] w-full items-center justify-between bg-[#1d1d23] px-4 py-2 rounded-md border border-white/10">
+            <div className="flex lg:w-[100%] w-full items-center justify-between bg-transparent px-4 py-2 rounded-md border border-white/10">
               <span className="text-white text-sm">
                 Professional Male Preview
               </span>
@@ -220,7 +220,7 @@ function Ai() {
     <div
       className="
         relative w-full max-w-[620px]
-        bg-[rgba(3,3,3,0.57)]
+        bg-transparent
         border border-[#353535]
         rounded-[20px]
         p-6

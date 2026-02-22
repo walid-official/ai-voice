@@ -18,13 +18,13 @@ function Heading() {
   return (
     <div className="text-center uppercase w-full max-w-[505px]">
       <p
-        className="bg-clip-text font-bold bg-gradient-to-b from-white to-[#bababa] text-[40px] leading-[46.555px]"
+        className="bg-clip-text font-bold bg-gradient-to-b from-white to-[#bababa] md:text-[40px] text-[24px] leading-[46.555px]"
         style={{ WebkitTextFillColor: "transparent" }}
       >
         Integrations That
       </p>
       <p
-        className="bg-clip-text font-bold bg-gradient-to-b from-white to-[#bababa] text-[40.75px] leading-[46.555px]"
+        className="bg-clip-text font-bold bg-gradient-to-b from-white to-[#bababa] md:text-[40.75px] text-[24px] leading-[46.555px]"
         style={{ WebkitTextFillColor: "transparent" }}
       >
         Fit Your Workflow

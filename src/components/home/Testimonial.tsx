@@ -29,7 +29,7 @@ function AvatarRow({
     <div className="flex items-center gap-4">
       <img
         alt={`${name} avatar`}
-        className="size-[42px] rounded-full"
+        className="w-[42px] h-[42px] rounded-full"
         src={src}
         loading="lazy"
         width={42}
@@ -64,7 +64,10 @@ function TestimonialCard({
     shadow-[0_10px_28px_rgba(0,0,0,0.28),inset_0_0_20px_rgba(0,0,0,0.55)]"
     >
       <div className="p-6 flex flex-col gap-6 h-full justify-between">
-        <p className="text-white text-[16px] leading-[24px]">
+        <p
+          className="text-[#ADADAD] text-[16px] font-medium leading-[24px]"
+          style={{ fontFamily: "'Monsiret', sans-serif" }}
+        >
           {text}
         </p>
 

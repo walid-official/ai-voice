@@ -23,7 +23,7 @@ function Frame184() {
   );
 }
 
-export function Frame177() {
+export function Footer() {
   return (
     <div className="w-full relative bg-gradient-to-b from-black to-[#23003e] border border-[rgba(255,255,255,0.16)] rounded-[8px] py-[91px] overflow-hidden">
       {/* Top content */}
@@ -40,14 +40,14 @@ export function Frame177() {
           >
             <p style={{ WebkitTextFillColor: "transparent" }} className="mb-0 ">{`STAY UPDATED WITH `}</p>
           </div>
-            <p className="text-[#BABABA] font-bold text-[30px] lg:text-[40.75px] uppercase ">INSTAFLOW NEWS</p>
+            <p className="text-[#FFFFFF70] font-bold text-[30px] lg:text-[40.75px] uppercase ">INSTAFLOW NEWS</p>
         </div>
           <div className="flex justify-end">
-            <div className="bg-[rgba(255,255,255,0.07)] h-[58.608px] rounded-[36.524px] lg:w-[423px] flex items-center justify-between pl-6 pr-2">
+            <div className="bg-[rgba(255,255,255,0.07)] border border-white/20  h-[58.608px] rounded-[36.524px] lg:w-[423px] flex items-center gap-2 justify-between px-3 md:pl-6 md:pr-2">
               <p className="font-['Cottorway_Pro:Medium',sans-serif] text-[#939393] text-[8px] lg:text-[12.741px] tracking-[0.5096px] uppercase">
                 enter email address
               </p>
-              <button className="bg-[#7711e5] py-3 cursor-pointer rounded-[22.084px] px-3 lg:px-5">
+              <button className="bg-[#7711e5] py-2 md:py-2.5 cursor-pointer rounded-[22.084px] px-2 lg:px-5">
                 <span className="font-['Cottorway_Pro:SemiBold',sans-serif] text-[12.741px] text-white tracking-[0.5096px] uppercase">
                   subscribe now
                 </span>
@@ -70,11 +70,12 @@ export function Frame177() {
     absolute bottom-0 left-1/2 -translate-x-1/2
     bg-clip-text font-bold bg-gradient-to-b 
     font-['Grift:Extra_Bold',sans-serif] 
-    from-[#bababa] from-[23.469%] to-[77.551%] to-[rgba(186,186,186,0)] 
+    from-white/80 via-[#984de8] to-[rgba(42,20,77,0)]
     uppercase pointer-events-none select-none
     text-[60px] sm:text-[160px] md:text-[200px] lg:text-[257px] 
     leading-[1] sm:leading-[1] md:leading-[1] lg:leading-[1] 
-    tracking-[2px] sm:tracking-[3px] md:tracking-[4px] lg:tracking-[5.151px]
+    tracking-[1px] sm:tracking-[2px] md:tracking-[3px] lg:tracking-[3px]
+    opacity-60
   "
   style={{ WebkitTextFillColor: "transparent" }}
 >
