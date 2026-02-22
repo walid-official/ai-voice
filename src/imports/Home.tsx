@@ -28,6 +28,7 @@ import { Frame170 } from "@/components/home/Frame170";
 import { Frame173 } from "@/components/home/Frame173";
 import { Frame175 } from "@/components/home/Frame175";
 import { Frame177 } from "@/components/home/Frame177";
+import EffortlessGrowth from "@/components/home/EffortlessGrowth";
 
 
 function Group5() {
@@ -3802,15 +3803,18 @@ export default function Home() {
       <HeroBlurColumns />
       <Group40 />
       <HeroInstantly />
-      <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+1px)] top-[1019px] w-[1440.009px]">
+      <div className="relative mt-20">
+        <EffortlessGrowth />
+      </div>
+      {/* <div className="-translate-x-1/2 absolute h-0 left-[calc(50%+1px)] top-[1019px] w-[1440.009px]">
         <div className="absolute inset-[-1px_0_0_0]">
           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1440.01 1">
             <line id="Line 1" stroke="var(--stroke-0, #2F2F2F)" strokeOpacity="0.58" x2="1440.01" y1="0.5" y2="0.5" />
           </svg>
         </div>
-      </div>
+      </div> */}
       <Security />
-      <AppointmantCard />
+      {/* <AppointmantCard /> */}
       <Frame102 />
       <Group47 />
       <Frame111 />

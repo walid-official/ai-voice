@@ -6,11 +6,11 @@ import { Play } from 'lucide-react';
 
 function Group43() {
   return (
-    <div className="text-center mt-10 uppercase font-['Grift:Extra_Bold',sans-serif]">
-        <h2 className="text-2xl font-bold md:text-[45px] leading-[1.1] bg-clip-text bg-gradient-to-b from-white to-[#bababa] text-transparent">
+    <div className="text-center mt-10 uppercase font-bold font-['Grift:Extra_Bold',sans-serif]">
+        <h2 className="text-2xl font-bold md:text-[45px] leading-[1.1]  text-white ">
         Every Call
       </h2>
-      <h1 className="text-2xl font-bold md:text-[45px] leading-[1.1] bg-clip-text bg-gradient-to-b from-white to-[#bababa] text-transparent">
+      <h1 className="text-2xl font-bold md:text-[45px] leading-[1.1]  text-white ">
         Answered{" "}
         <span className="bg-clip-text bg-gradient-to-b from-[#f5ebff] to-[#ba79ff] text-transparent">
           Instantly
@@ -217,13 +217,26 @@ function Frame67() {
 
 function Ai() {
   return (
-    <div className="relative w-full max-w-[620px] bg-[rgba(3,3,3,0.57)] border border-[#353535] rounded-[20px] p-6 flex flex-col gap-6">
+    <div
+      className="
+        relative w-full max-w-[620px]
+        bg-[rgba(3,3,3,0.57)]
+        border border-[#353535]
+        rounded-[20px]
+        p-6
+        flex flex-col gap-6
+        overflow-hidden
 
+        backdrop-blur-[100px]
+
+        shadow-[inset_0px_1px_40px_0px_#E3DEFF33,inset_0px_3px_18px_0px_#9A92D24D,inset_0px_81px_100px_-48px_#CAACFF4D,inset_0px_-82px_68px_-64px_#5A339D4D,inset_0px_4px_9px_-4px_#FFFFFF,inset_0px_0px_56px_-36px_#FFFFFF80]
+      "
+    >
       {/* Glow Effect */}
       <div className="absolute pointer-events-none w-[150px] h-[150px] bg-[#CD9EFF] blur-[120px] opacity-40 rounded-full self-center" />
 
-      <p className="text-center text-[17px] uppercase font-['Neon:Heavy',sans-serif] bg-clip-text bg-gradient-to-r from-white to-[#cd9eff] text-transparent">
-        Experience InstaFlow
+      <p className="text-center text-[22px] uppercase font-['Neon:Heavy',sans-serif] bg-clip-text bg-gradient-to-r from-white to-[#8D23FF] text-transparent">
+        Call & Test the AI Agent Now
       </p>
 
       <svg
@@ -241,12 +254,10 @@ function Ai() {
       </svg>
 
       <VoiceSelector />
-
       <Frame74 />
     </div>
   );
 }
-
 /* ================= MAIN HERO ================= */
 
 export default function HeroInstantly() {
@@ -257,4 +268,3 @@ export default function HeroInstantly() {
     </section>
   );
 }
-

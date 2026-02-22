@@ -2,10 +2,10 @@ import React from "react";
 import svgPaths from "@/imports/svg-qar94wno65";
 import imgFrame2147224778 from "@/assets/4325472e76c4d5900f149ba036fbb405adf1dee9.png";
 import imgFrame2147224779 from "@/assets/630e8182ef13d32cd939eef9b57c5bdc733e9dd3.png";
-import { Frame108 } from "./Frame108";
 import imgFrame2147224780 from "@/assets/8d7301a878915636181f3e0c5abd22deb05d82f7.png";
 import imgFrame2147224781 from "@/assets/84bd5b09676f0ef13bd88c6c447bd2045d61969c.png";
-import { Frame121 } from "./Frame121";
+import usersImg from "@/assets/users.png";
+import ratingsIcon from "@/assets/ratings.svg";
 function ArrowIcon() {
   return (
     <svg className="block size-[20.211px]" fill="none" preserveAspectRatio="none" viewBox="0 0 20.2105 20.2105" aria-hidden="true">
@@ -19,7 +19,7 @@ function ArrowIcon() {
 
 function ArrowButton() {
   return (
-    <div className="bg-[rgba(255,255,255,0.14)] overflow-clip rounded-[20.211px] size-[32px] flex items-center justify-center">
+    <div className="bg-[rgba(255,255,255,0.14)] overflow-hidden rounded-[20.211px] size-[32px] flex items-center justify-center">
       <ArrowIcon />
     </div>
   );
@@ -33,11 +33,11 @@ type CardProps = {
 
 function Card({ image, label, className }: CardProps) {
   return (
-    <div className={`grid rounded-[13px] overflow-clip ${className ?? ""}`}>
+    <div className={`grid rounded-[13px] overflow-hidden ${className ?? ""}`}>
       <img alt="" src={image} className="col-start-1 row-start-1 w-full h-full object-cover" />
       <div className="col-start-1 row-start-1 w-full h-full bg-[linear-gradient(180.106deg,rgba(18,18,18,0)_7.0887%,rgb(18,18,18)_99.855%)]" />
-      <div className="col-start-1 row-start-1 w-full p-4 md:p-5 self-end flex items-center justify-between">
-        <p className="bg-clip-text bg-gradient-to-b from-white from-[23.469%] to-[#bababa] to-[77.551%] font-['Grift:Medium',sans-serif] leading-[normal] not-italic text-[20px] uppercase" style={{ WebkitTextFillColor: "transparent" }}>
+      <div className="col-start-1 row-start-1 w-full p-4 md:p-5 self-end flex items-center justify-between z-[1]">
+        <p className="bg-clip-text bg-gradient-to-b from-white from-[23.469%] to-[#bababa] to-[77.551%] text-transparent font-['Grift:Medium',sans-serif] leading-[normal] not-italic text-[20px] uppercase" style={{ WebkitTextFillColor: "transparent" }}>
           {label}
         </p>
         <ArrowButton />
@@ -45,37 +45,54 @@ function Card({ image, label, className }: CardProps) {
     </div>
   );
 }
+
+function LeftPanel() {
+  return (
+    <div className="mx-auto max-w-md lg:max-w-none">
+      <div className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs tracking-[0.12em] text-white/80">
+        SMART GROWTH SOLUTIONS
+      </div>
+      <h2 className="mt-4 font-['Grift:Medium',sans-serif] text-[34px] leading-[1.05] md:text-[48px] font-bold text-white">
+        SMARTER GROWTH
+        <br />
+        FOR WELLNESS
+      </h2>
+      <div className="mt-6 inline-flex relative items-center gap-3 rounded-[999px] bg-[#80808030] border border-white px-4 py-3">
+         <div className="absolute  left-1/2 -translate-x-1/2 w-[400px] h-[400px] rounded-full bg-[#8C21FF]/20 blur-[100px]" />
+        <img alt="" src={usersImg} className="h-8 w-auto" />
+        <div>
+          <div className="flex items-center gap-2">
+            <img alt="" src={ratingsIcon} className="h-5 w-5" />
+            <span className="text-white font-medium">4.9/5 Rating</span>
+          </div>
+           <div className="">
+          <span className="text-xs text-white/70">Based on 24+ Verified Reviews</span>
+         </div>
+        </div>
+        
+          </div>
+        <div>
+      </div>
+    </div>
+  );
+}
 export function Frame111() {
   return (
-   <section className="w-full px-4 lg:px-0 max-w-7xl mx-auto lg:pb-20 pb-12 lg:flex  gap-6">
-  
-  {/* Left 30% */}
-  <div className="lg:w-[40%] w-full">
-    <Frame108 />
-  </div>
-
-  {/* Right 70% */}
-  <div className="lg:w-[60%] w-full">
-    
-    <div className="mx-auto w-full grid grid-cols-1 md:grid-cols-[407px_257px] items-end justify-center gap-4 md:gap-6">
-      <Card
-        image={imgFrame2147224778}
-        label="saloon"
-        className="h-[220px] md:h-[255px] md:w-[407px]"
-      />
-      <Card
-        image={imgFrame2147224779}
-        label="spa"
-        className="h-[220px] md:h-[254px] md:w-[257px]"
-      />
-    </div>
-
-    <div className="mt-6">
-      <Frame121 />
-    </div>
-
-  </div>
-</section>
+   <section className="w-full px-4 lg:px-0 max-w-7xl mx-auto py-20 lg:flex gap-6">
+     <div className="lg:w-[40%] w-full">
+       <LeftPanel />
+     </div>
+     <div className="lg:w-[60%] w-full">
+       <div className="mx-auto w-full grid grid-cols-1 md:grid-cols-[407px_257px] items-end justify-center gap-4 md:gap-6">
+         <Card image={imgFrame2147224778} label="saloon" className="h-[220px] md:h-[300px] md:w-[407px]" />
+         <Card image={imgFrame2147224779} label="spa" className="h-[220px] md:h-[300px] md:w-[257px]" />
+       </div>
+       <div className="mt-6 mx-auto w-full grid grid-cols-1 md:grid-cols-[257px_407px] items-end justify-center gap-4 md:gap-6">
+         <Card image={imgFrame2147224780} label="Medical spa" className="h-[220px] md:h-[340px] md:w-[257px]" />
+         <Card image={imgFrame2147224781} label="Barbershop" className="h-[220px] md:h-[340px] md:w-[407px]" />
+       </div>
+     </div>
+   </section>
 
   );
 }

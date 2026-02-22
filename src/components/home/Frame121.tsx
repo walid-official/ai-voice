@@ -16,7 +16,7 @@ function ArrowIcon() {
 
 function ArrowButton() {
   return (
-    <div className="bg-[rgba(255,255,255,0.14)] overflow-clip rounded-[20.211px] size-[32px] flex items-center justify-center">
+    <div className="bg-[rgba(255,255,255,0.14)] overflow-hidden rounded-[20.211px] size-[32px] flex items-center justify-center">
       <ArrowIcon />
     </div>
   );
@@ -30,11 +30,11 @@ type CardProps = {
 
 function Card({ image, label, className }: CardProps) {
   return (
-    <div className={`grid rounded-[13px] overflow-clip ${className ?? ""}`}>
+    <div className={`grid rounded-[13px] overflow-hidden ${className ?? ""}`}>
       <img alt="" src={image} className="col-start-1 row-start-1 w-full h-full object-cover" />
       <div className="col-start-1 row-start-1 w-full h-full bg-[linear-gradient(180.106deg,rgba(18,18,18,0)_7.0887%,rgb(18,18,18)_99.855%)]" />
-      <div className="col-start-1 row-start-1 w-full p-4 md:p-5 self-end flex items-center justify-between">
-        <p className="bg-clip-text bg-gradient-to-b from-white from-[23.469%] to-[#bababa] to-[77.551%] font-['Grift:Medium',sans-serif] leading-[normal] not-italic text-[20px] uppercase" style={{ WebkitTextFillColor: "transparent" }}>
+      <div className="col-start-1 row-start-1 w-full p-4 md:p-5 self-end flex items-center justify-between z-[1]">
+        <p className="bg-clip-text bg-gradient-to-b from-white from-[23.469%] to-[#bababa] to-[77.551%] text-transparent font-['Grift:Medium',sans-serif] leading-[normal] not-italic text-[20px] uppercase" style={{ WebkitTextFillColor: "transparent" }}>
           {label}
         </p>
         <ArrowButton />

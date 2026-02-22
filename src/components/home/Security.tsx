@@ -1,26 +1,29 @@
 import svgPaths from "@/imports/svg-qar94wno65";
-
+import leftSvg from "@/assets/left.svg";
+import rightSvg from "@/assets/right.svg";
 function Pill() {
   return (
-    <div className="flex items-center mb-3 justify-center backdrop-blur-[1.905px] bg-white/10 h-[34.298px] w-[240px] rounded-full ring-1 ring-white/30">
-      <p className="font-['Grift:Bold',sans-serif] text-[#c8c8c8] text-[14.291px] uppercase text-center">
-        Scale and Security
-      </p>
-    </div>
+    <div className="flex justify-center  items-center gap-3">
+            <img src={leftSvg} alt="" className="h-[30px] w-[135px]" />
+            <p className="text-white uppercase tracking-[2px] text-[16px]">
+              Effortless Appointment Growth
+            </p>
+            <img src={rightSvg} alt="" className="h-[30px] w-[135px]" />
+          </div>
   );
 }
 
 function Heading() {
   return (
-    <div className="font-['Grift:Extra_Bold',sans-serif] not-italic text-[32px] sm:text-[38px] md:text-[42.755px] leading-[1.1] uppercase">
+    <div className="font-['Grift:Extra_Bold',sans-serif] mt-8 mb-12 text-center not-italic text-[32px] sm:text-[38px] md:text-[42.755px] leading-[1.1] uppercase">
       <p
-        className="bg-clip-text bg-gradient-to-b from-white to-[#bababa]"
+        className="bg-clip-text font-bold bg-gradient-to-b from-white to-[#bababa]"
         style={{ WebkitTextFillColor: "transparent" }}
       >
         scale and security
       </p>
       <p
-        className="bg-clip-text bg-gradient-to-b from-white to-[#bababa] w-full sm:w-[391px] whitespace-pre-wrap"
+        className="bg-clip-text mx-auto font-bold bg-gradient-to-b from-white to-[#bababa] w-full sm:w-[391px] whitespace-pre-wrap"
         style={{ WebkitTextFillColor: "transparent" }}
       >
         Built for speed
@@ -80,10 +83,14 @@ function FeatureCard({
   icon: React.ReactNode;
 }) {
   return (
-    <div
-      className="rounded-[14px] p-6 sm:p-7 md:p-8 w-full"
-      style={{ backgroundImage: "linear-gradient(0.389876deg, rgb(23, 23, 33) 0.3605%, rgb(33, 35, 48) 99.578%)" }}
-    >
+<div
+  className="relative rounded-[14px]
+    p-6 sm:p-7 md:p-8
+    w-full
+    border-2 border-[#2a1550]
+    bg-[radial-gradient(120%_120%_at_50%_50%,#25144a_0%,#1a0b2e_45%,#0e0618_100%)]
+    shadow-[0_10px_28px_rgba(0,0,0,0.28),inset_0_0_20px_rgba(0,0,0,0.55)]"
+>
       <div className="flex flex-col gap-[28px]">
         <FeatureIcon>{icon}</FeatureIcon>
         <div className="flex flex-col gap-[5px]">
@@ -104,12 +111,22 @@ function FeatureCard({
 
 export function Security() {
   return (
-    <section className="w-full lg:mt-60 mt-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 sm:py-8 md:py-10 flex flex-col gap-[24px] sm:gap-[32px] md:gap-[44px]">
-        <div className="flex flex-col items-start gap-[12px]">
+    <section className="w-full relative overflow-hidden
+          bg-[#0c0616]
+          py-20
+          after:content-['']
+          after:absolute after:bottom-0 after:left-0
+          after:w-full after:h-[1px]
+          after:bg-gradient-to-r
+          after:from-transparent
+          after:via-purple-400
+          after:to-transparent  ">
+        <div className="">
           <Pill />
           <Heading />
         </div>
+      <div className="mx-auto max-w-7xl px-4 lg:px-0 py-6 sm:py-8 md:py-10 flex flex-col gap-[24px] sm:gap-[32px] md:gap-[44px]">
+      
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[16px] sm:gap-[20px]">
           <FeatureCard
