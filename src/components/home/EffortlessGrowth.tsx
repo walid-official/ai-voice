@@ -33,11 +33,11 @@ export default function EffortlessGrowth() {
 
         <div className="flex flex-col items-center gap-8 relative z-10 py-12">
           <div className="flex items-center gap-3">
-            <img src={leftSvg} alt="" className="h-[30px] w-[135px]" />
-            <p className="text-white uppercase tracking-[2px] text-[16px]">
+            <img src={leftSvg} alt="" className="h-[30px] w-[80px] md:w-[100px] lg:w-[135px]" />
+            <p className="text-white uppercase tracking-[2px] text-[12px] md:text-[16px]">
               Effortless Appointment Growth
             </p>
-            <img src={rightSvg} alt="" className="h-[30px] w-[135px]" />
+            <img src={rightSvg} alt="" className="h-[30px] w-[80px] md:w-[100px] lg:w-[135px]" />
           </div>
 
           <div className="text-center">
@@ -45,7 +45,7 @@ export default function EffortlessGrowth() {
   className="
     max-w-5xl mx-auto
     font-['Raleway',sans-serif] font-semibold
-    text-white text-[33.72px] leading-[40.9px]
+    text-white text-[20px] lg:text-[33.72px] leading-[40.9px]
   "
 >
   Your calendar fills itself automatically. Every call is answered

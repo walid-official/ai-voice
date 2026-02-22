@@ -1,30 +1,46 @@
 import React from "react";
 import svgPaths from "@/imports/svg-qar94wno65";
 import imgFrame2147224789 from "@/assets/56650cd4279c696bd8aa6eebc2c5127e30fe096a.png";
-
+import leftSvg from "@/assets/left.svg";
+import rightSvg from "@/assets/right.svg";
 function Frame134() {
   return (
-    <button className="py-2 rounded-full px-3 bg-white/10 backdrop-blur-[1.9px] border border-white/30 ">
-      <p className="font-['Grift:Bold',sans-serif] text-[14px] text-[#c8c8c8] uppercase text-center">
-        Why Businesses Choose Instaflow
-      </p>
-    </button>
+     <div className="flex items-center justify-center gap-3">
+            <img src={leftSvg} alt="" className="h-[30px] w-[80px] md:w-[100px] lg:w-[135px]" />
+            <p className="text-white uppercase tracking-[2px] text-[11px] md:text-[16px]">
+              Why Choose Us
+            </p>
+            <img src={rightSvg} alt="" className="h-[30px] w-[80px] md:w-[100px] lg:w-[135px]" />
+          </div>
   );
 }
 
 
 function Group52() {
   return (
-    <div className="font-['Grift:Extra_Bold',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid not-italic place-items-start relative shrink-0 lg:text-[42.755px] text-2xl uppercase">
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-[51px] relative row-1 text-center to-[#bababa] to-[77.551%]" style={{ WebkitTextFillColor: "transparent" }}>{`Human voice & Scales.`}</p>
-      <p className="bg-clip-text bg-gradient-to-b col-1 from-[23.469%] from-white ml-0 mt-0 relative row-1 to-[#bababa] to-[77.551%] w-[391px] whitespace-pre-wrap" style={{ WebkitTextFillColor: "transparent" }}>{`Instant calls. `}</p>
+    <div className="font-['Grift:Extra_Bold',sans-serif] text-center uppercase lg:text-[42.755px] text-2xl">
+      
+      <p
+        className="font-bold bg-gradient-to-b from-white to-[#bababa] bg-clip-text"
+        style={{ WebkitTextFillColor: "transparent" }}
+      >
+        Why Growing Businesses
+      </p>
+
+      <p
+        className="font-bold bg-gradient-to-b from-white to-[#bababa] bg-clip-text mx-auto"
+        style={{ WebkitTextFillColor: "transparent" }}
+      >
+        Choose InstaFlow
+      </p>
+
     </div>
   );
 }
 
 function Frame133() {
   return (
-    <div className="content-stretch flex flex-col gap-[30px] items-start relative shrink-0 w-full max-w-[505px]">
+    <div className="content-stretch flex flex-col items-center gap-[30px] relative shrink-0 w-full">
       <Frame134 />
       <Group52 />
     </div>
@@ -47,7 +63,7 @@ function Frame132() {
     <div className="content-stretch flex flex-col gap-6 items-start justify-between pb-[24px] relative shrink-0 w-full md:flex-row md:items-end md:gap-0 md:pb-[35px]">
       <div aria-hidden="true" className="absolute border-[rgba(255,255,255,0.1)] border-b border-solid inset-0 pointer-events-none" />
       <Frame133 />
-      <Frame5 />
+      {/* <Frame5 /> */}
     </div>
   );
 }
@@ -244,7 +260,7 @@ function Frame136() {
 
 function Frame131() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative mx-auto px-4 md:gap-[40px] md:px-8 lg:gap-[49px] lg:px-0 lg:w-[1200px] w-full max-w-[1200px]">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative mx-auto px-4 md:gap-[40px] md:px-0 lg:gap-[49px] lg:px-0  w-full max-w-7xl">
       <Frame132 />
       <Frame136 />
     </div>
@@ -253,7 +269,25 @@ function Frame131() {
 
 export function Frame130() {
   return (
-    <div className="relative bg-gradient-to-b from-[#181822] to-[#212330] w-full overflow-clip py-16 md:py-24 lg:py-24">
+    <div className="relative overflow-hidden py-28
+          bg-[#0c0616]
+          shadow-[inset_0_0_80px_0_rgba(141,35,255,0.12)]
+        
+          before:content-['']
+          before:absolute before:top-0 before:left-0
+          before:w-full before:h-[1px]
+          before:bg-gradient-to-r
+          before:from-transparent
+          before:via-purple-400
+          before:to-transparent
+
+          after:content-['']
+          after:absolute after:bottom-0 after:left-0
+          after:w-full after:h-[1px]
+          after:bg-gradient-to-r
+          after:from-transparent
+          after:via-purple-400
+          after:to-transparent ">
       <Frame131 />
     </div>
   );

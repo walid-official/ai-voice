@@ -4,7 +4,7 @@ import React from "react";
 
 function Frame185() {
   return (
-    <div className="content-stretch lg:flex space-y-2 gap-[34px] items-center relative shrink-0">
+    <div className="content-stretch lg:flex lg:space-y-0 space-y-2 gap-[34px] items-center relative shrink-0">
       <p className="relative shrink-0">{`Privacy & policy`}</p>
       <p className="relative shrink-0">{`Terms & conditions`}</p>
       <p className="relative shrink-0">contact us</p>
@@ -15,7 +15,7 @@ function Frame185() {
 function Frame184() {
   return (
     <div className=" max-w-7xl px-3 lg:px-0 mx-auto mt-8 lg:flex font-['Cottorway_Pro:Medium',sans-serif] items-center justify-between leading-[normal] not-italic  shrink-0 text-[#727272] text-[12.741px] uppercase ">
-      <p className="relative shrink-0">© 2026 InstaFlow AI. Strategy Calls Only. Custom Quoting.</p>
+      <p className=" shrink-0">© 2026 InstaFlow AI. Strategy Calls Only. Custom Quoting.</p>
       <div className="mt-4">
          <Frame185 />
       </div>
@@ -35,19 +35,19 @@ export function Frame177() {
             </p>
           </div>
           <div
-            className="bg-clip-text mt-4 lg:mt-0 bg-gradient-to-b from-white to-[#bababa] font-['Grift:Extra_Bold',sans-serif] font-bold leading-[46.555px] min-w-full text-[30px] lg:text-[40.75px] uppercase w-[min-content] whitespace-pre-wrap"
+            className="bg-clip-text mt-4 lg:mt-4 bg-gradient-to-b from-white to-[#bababa] font-['Grift:Extra_Bold',sans-serif] font-bold leading-[46.555px] min-w-full text-[30px] lg:text-[40.75px] uppercase w-[min-content] whitespace-pre-wrap"
             style={{ WebkitTextFillColor: "transparent" }}
           >
-            <p className="mb-0">{`STAY UPDATED WITH `}</p>
-            <p className="text-[#BABABA]">INSTAFLOW NEWS</p>
+            <p style={{ WebkitTextFillColor: "transparent" }} className="mb-0 ">{`STAY UPDATED WITH `}</p>
           </div>
+            <p className="text-[#BABABA] font-bold text-[30px] lg:text-[40.75px] uppercase ">INSTAFLOW NEWS</p>
         </div>
           <div className="flex justify-end">
             <div className="bg-[rgba(255,255,255,0.07)] h-[58.608px] rounded-[36.524px] lg:w-[423px] flex items-center justify-between pl-6 pr-2">
               <p className="font-['Cottorway_Pro:Medium',sans-serif] text-[#939393] text-[8px] lg:text-[12.741px] tracking-[0.5096px] uppercase">
                 enter email address
               </p>
-              <button className="bg-[#7711e5] h-[37.373px] rounded-[22.084px] px-3 lg:px-5">
+              <button className="bg-[#7711e5] py-3 cursor-pointer rounded-[22.084px] px-3 lg:px-5">
                 <span className="font-['Cottorway_Pro:SemiBold',sans-serif] text-[12.741px] text-white tracking-[0.5096px] uppercase">
                   subscribe now
                 </span>

@@ -4,18 +4,18 @@ import rightSvg from "@/assets/right.svg";
 function Pill() {
   return (
     <div className="flex justify-center  items-center gap-3">
-            <img src={leftSvg} alt="" className="h-[30px] w-[135px]" />
-            <p className="text-white uppercase tracking-[2px] text-[16px]">
+            <img src={leftSvg} alt="" className="h-[30px] w-[80px] md:w-[100px] lg:w-[135px]" />
+            <p className="text-white uppercase tracking-[2px] text-[12px] lg:text-[16px]">
               Effortless Appointment Growth
             </p>
-            <img src={rightSvg} alt="" className="h-[30px] w-[135px]" />
+            <img src={rightSvg} alt="" className="h-[30px] w-[80px] md:w-[100px] lg:w-[135px]" />
           </div>
   );
 }
 
 function Heading() {
   return (
-    <div className="font-['Grift:Extra_Bold',sans-serif] mt-8 mb-12 text-center not-italic text-[32px] sm:text-[38px] md:text-[42.755px] leading-[1.1] uppercase">
+    <div className="font-['Grift:Extra_Bold',sans-serif] mt-8 mb-12 text-center not-italic text-[24px] sm:text-[38px] md:text-[42.755px] leading-[1.1] uppercase">
       <p
         className="bg-clip-text font-bold bg-gradient-to-b from-white to-[#bababa]"
         style={{ WebkitTextFillColor: "transparent" }}
@@ -113,7 +113,7 @@ export function Security() {
   return (
     <section className="w-full relative overflow-hidden
           bg-[#0c0616]
-          py-20
+          py-28
           after:content-['']
           after:absolute after:bottom-0 after:left-0
           after:w-full after:h-[1px]

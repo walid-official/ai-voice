@@ -19,14 +19,14 @@ import { Security } from "@/components/home/Security";
 import { Frame102 } from "@/components/home/Frame102";
 import { Group47 } from "@/components/home/Group47";
 import { Frame108 } from "@/components/home/Frame108";
-import { Frame111 } from "@/components/home/Frame111";
+import { SmartGrowth } from "@/components/home/SmartGrowth";
 import { Frame121 } from "@/components/home/Frame121";
 import { Frame130 } from "@/components/home/Frame130";
-import { Frame149 } from "@/components/home/Frame149";
+import { WorkflowHeading } from "@/components/home/WorkflowHeading";
 import { Group54 } from "@/components/home/Group54";
 import { Frame170 } from "@/components/home/Frame170";
 import { Frame173 } from "@/components/home/Frame173";
-import { Frame175 } from "@/components/home/Frame175";
+import { Testimonial } from "@/components/home/Testimonial";
 import { Frame177 } from "@/components/home/Frame177";
 import EffortlessGrowth from "@/components/home/EffortlessGrowth";
 
@@ -3740,10 +3740,10 @@ function Frame168() {
   );
 }
 
-function Frame153() {
+function WorkflowContent() {
   return (
     <div className="min-h-180">
-      {/* <Frame149 /> */}
+      {/* <WorkflowHeading /> */}
       <div className="relative min-h-[420px] sm:min-h-[520px] lg:h-[567.437px] w-full max-w-[571.714px] mx-auto lg:absolute lg:left-1/2 lg:-translate-x-1/2">
         <Frame154 />
         <Frame155 />
@@ -3817,18 +3817,20 @@ export default function Home() {
       {/* <AppointmantCard /> */}
       <Frame102 />
       <Group47 />
-      <Frame111 />
+      <SmartGrowth />
       <Frame130 />  
-      <Frame149/>    
+      <WorkflowHeading/>    
       <div className="relative">
-        <Group54 />
-        <Frame153 />
+        {/* <Group54 /> */}
+        <WorkflowContent />
+         {/* Glow Background */}
+        <div className="absolute top-[12%] left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-[#8C21FF]/20 blur-[100px]" />
       </div>
-      <div className="relative">
+      {/* <div className="relative">
           <Frame170 />
           <Frame173 />
-      </div>
-        <Frame175 />
+      </div> */}
+        <Testimonial />
         <Frame177 />
         
         {/* <Frame183 /> */}

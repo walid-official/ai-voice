@@ -1,0 +1,8 @@
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+/* Optional: make hover still work nicely */
+.swiper-slide img:hover {
+  opacity: 1 !important;
+}
